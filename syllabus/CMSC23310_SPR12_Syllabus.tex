@@ -1,0 +1,331 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{fancybox}
+\usepackage{multirow}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{colortbl}
+\usepackage{rotating}
+\usepackage{verbatim}
+\usepackage{url}
+\usepackage{bibentry}
+
+\newcommand{\bibentryitem}[1]{\item[\cite{#1}] \bibentry{#1}}
+
+%opening
+\title{CMSC 23310/33310\\Advanced Distributed Systems\\{\small Last updated: \today}}
+\author{Department of Computer Science\\University of Chicago}
+\date{}
+
+\setcounter{tocdepth}{1}
+
+\titlecontents{section}
+[1em]
+{\sffamily}
+{}
+{}
+{\titlerule*[0.5pc]{.}\contentspage\hspace*{1em}}
+\renewcommand\contentsname{Contents of this Document}
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\begin{center}
+\begin{minipage}{0.6\textwidth}
+\begin{center}
+\emph{Spring 2012 Quarter}
+\end{center}
+\textbf{Dates:} March 27 -- May 29, 2011
+
+\textbf{Lectures:} Thursdays 10:30-11:50 in Ryerson 276
+
+\textbf{Discussion:} Tuesdays 10:30-11:50 in Cobb 304
+
+\textbf{Website:} \url{http://www.classes.cs.uchicago.edu/archive/2012/spring/23310-1/}
+\vspace{1em}
+
+\textbf{Lecturer:} Borja Sotomayor
+
+\textbf{E-mail:} borja@cs.uchicago.edu
+
+\textbf{Office:} Searle 209-A
+
+\textbf{Office hours:} Open door policy (see page \pageref{asking})
+\end{minipage}
+
+\end{center}
+
+\vspace{2ex}
+
+\titleformat{\section}[block]
+{\filcenter\normalfont\sffamily}
+{}{0em}{}
+
+\begin{center}
+\shadowbox{
+\begin{minipage}{0.6\textwidth}
+\tableofcontents
+\end{minipage}
+}
+\end{center}
+
+\titleformat{\section}[block]
+{\large\sffamily}
+{}{0em}{\titlerule\\\bfseries}
+
+\titleformat{\subsection}[block]
+{\normalfont\sffamily\bfseries}
+{}{0em}{}
+
+\pagebreak
+
+\section{Course Description and Learning Goals}
+
+In recent years, large distributed systems have taken a prominent role not just in scientific inquiry, but also in our daily lives. When we perform a search on Google, stream content from Netflix, place an order on Amazon, or catch up on the latest comings-and-goings on Facebook, our seemingly minute requests are processed by complex systems that sometimes include hundreds of thousands of computers, connected by both local and wide area networks.
+
+Recent papers in the field of Distributed Systems have described several solutions (such as MapReduce, BigTable, Dynamo, Cassandra, etc.) for managing large-scale data and computation. However, building and using these systems poses a number of more fundamental challenges: How do we keep the system operating correctly even when individual machines fail? How do we ensure that all the machines have a consistent view of the system's state? (and how do we ensure this in the presence of failures?) How can we determine the order of events in a system where we can't assume a single global clock?
+
+Many of these fundamental problems were identified and solved over the course of several decades, starting in the 1970's. In this course, we will engage in reading and discussing seminal work in Distributed Systems from the last 35 years to (1) identify the fundamental issues raised in this earlier work, (2) relate those issues to current research problems, and (3) evaluate and compare the solutions proposed in both early and recent work. During this course, students will also implement a distributed system that requires them to manage distribute resources and evaluate whether the resulting system has certain properties, such as reliability, scalability, etc.
+
+At the end of the quarter, students will be able to:
+
+\begin{enumerate}
+ \item Identify the research questions posed in a scholarly paper and the solutions proposed in that paper.
+ \item Identify the main contributions and conclusions in a scholarly paper, and determine whether they are well supported by evaluating and criticizing the arguments, proofs, or experimental results in that paper.
+ \item Compare and contrast different distributed systems for managing large-scale data and computation.
+ \item Evaluate whether an implementation of a distributed system is reliable, fault-tolerant, scalable, and/or highly available.
+\end{enumerate}
+
+Students interested in taking this course should take into account that CMSC 23300 (Networks and Distributed Systems) is a prerequisite for this course. Students can petition to have this requirement waived, as long as they have taken at least one other 200-level CS systems course.
+
+\pagebreak
+
+\section{Course Organization}
+
+This course is divided into two components:
+
+\begin{description}
+
+ \item[Reading and Discussion of Primary Sources:] One or two papers will be assigned each week, to be discussed on Tuesdays (on Thursdays, we will present background material that will aid in understanding the paper/s assigned for the following Tuesday). Students will have to submit brief response papers each week, as well as a final paper.
+
+ \item[Distributed Systems Programming Project:] Throughout the quarter, students will have to implement a distributed system. Unlike projects that students may have done in previous 200-level CS systems courses, this project is not designed to directly complement all the material covered in the lectures. Instead, the project will be open-ended: students must propose a project themselves (subject to instructor approval), choose the languages and frameworks to develop the project, and meet certain reporting milestones during the quarter. Developing this project will expose students to the practical challenges of implementing a distributed system, and will prepare them to evaluate, compare, and contrast implementations of distributed systems in the field.
+
+\end{description}
+
+These two components are described in more detail below. The course calendar, including the reading assignments for each week and the project deadlines, is shown in Table~\ref{tab:calendar}.
+
+\subsection{Paper discussion}
+
+Every week, we will discuss 1--2 papers in class. The actual discussion section will take place on Tuesdays, while Thursdays will be used to wrap up the discussion from Tuesday, and to present background material necessary for the following week's paper/s. Figure~\ref{fig:discussdates} summarizes the timeline surrounding the discussion of a paper or papers in a given week.
+
+At the beginning of the quarter, students will be divided into three groups: A, B, and C. Although the composition of the groups will remain fixed throughout the quarter, the \emph{role} that each group will take during a discussion section will rotate every week. There are three roles:
+
+\begin{description}
+ \item \textsc{The Questioners}: Before a discussion section, this group is responsible for preparing a list of 4--5 discussion questions about the paper to be discussed in class.
+ \item \textsc{The Answerers}: During a discussion section, this group is responsible for leading a discussion conducent to answering the questions posed by \textsc{The Questioners}. To allow enough time for \textsc{The Answerers} to prepare, \textsc{The Questioners} must submit their questions by Sunday night.
+ \item \textsc{The Critics}: For a given discussion, this group must criticize both the questions posed by \textsc{The Questioners} and the answers provided by \textsc{The Answerers}. Although they can begin to do this during the discussion section, time will also be allocated on Thursday for \textsc{The Critics} to speak (to give them enough time to process the results of the Tuesday discussion).
+\end{description}
+
+In each discussion, each group will have a designated spokesperson, which will also rotate every week. The spokesperson is not only the voice of his/her group, but also responsible for engaging his/her group in discussion of questions, answers, or critiques (depending on the role of group). Every student in the class will be a spokesperson at least once.
+
+All students will submit a brief (300-500 word) response paper for each week's paper by Monday at 6pm. The exact topic of the reponse paper will vary for each paper but, in general, will require students to identify the strengths and weaknesses of the paper. 
+
+Students must also submit a final paper (\~{}2,000 words) by Tuesday, June 5th at 8pm (Graduating students must submit their final paper by Tuesday, May 29th at 8pm). The topic of the paper will be set no later than 5th week, and will involve reading at least two papers that propose solutions to similar research problems, which the students must be able to explain, compare, and contrast.
+
+
+\begin{figure}
+\begin{center}
+\shadowbox{
+\begin{minipage}{0.75\textwidth}
+\begin{center}
+\begin{tabular}{rp{0.6\textwidth}}
+
+\textsf{Thursday (in class)} & Presentation of background material. \\ \\
+
+\textsf{Sunday, 6pm} & \textsc{The Questioners} must send their discussion questions to \textsc{The Answerers} \\ \\
+
+\textsf{Monday, 6pm} & Individual response papers due. \\ \\
+
+\textsf{\textbf{Tuesday (in class)}} & \textbf{Discussion session} \\ \\
+
+\textsf{Thursday (in class)} & \textsc{The Critics} criticize the questions and answers from Tuesday. \\
+
+\end{tabular}
+\end{center}
+\end{minipage}
+}
+\caption{Important dates before and after the discussion of a paper in a Tuesday class}
+\label{fig:discussdates}
+\end{center}
+\end{figure}
+
+
+\subsection{Project}
+
+Throughout the quarter, students must implement a distributed system. This will be an open-ended project: students will be allowed to propose their own project (subject to instructor approval), use any language and platform, and can work individually or in pairs (groups of three will be allowed only with the instructor's consent). However, the project must involve writing code that will either run on multiple machines, or will affect the behaviour of multiple machines. To give students an idea of what an acceptable project would look like, we will be presenting a list of possible projects that can be done in collaboration with Distributed Systems researchers at the Computation Institute.
+
+The project will have four milestones:
+
+\begin{itemize}
+ \item By the end of 2nd Week, must meet with the instructor to discuss a project proposal. After the meeting, students must submit a half to full page summary of the project to be posted on the course wiki. This summary must include a description of the main deliverables the student/s expect to produce by the end of the quarter.
+ \item Two progress reports, including a meeting with the instructor, must take place during fourth week and seventh week.
+ \item In the time allocated by the Registrar for this course's final exam, students must present their projects to the entire class. A separate date will be set for graduating students.
+\end{itemize}
+
+\subsection{Deadlines}
+
+Deadlines in this course will be lax, as long as delays in submissions are (1) sporadic and, (2) in the order of minutes or, at most, 1--2 hours. The instructor will contact students who are considered to be abusing this policy.
+
+\begin{sidewaystable}
+\sffamily
+\setlength{\extrarowheight}{4pt}
+\caption{CMSC 23310/33310 Spring 2012 Calendar}
+\begin{tabular}{|c|cc||p{8cm}|c|c|}
+\hline
+\textbf{Week} &  \multicolumn{2}{|c||}{\textbf{Date}} & \textbf{Lecture} & \textbf{Papers} & \textbf{Project} \\\hline
+
+\multirow{2}{*}{1}  & Tu & 27 March & Introduction                                       & \cellcolor[gray]{0.9} & \cellcolor[gray]{0.9}  \\\cline{2-5}
+                    & Th & 29 March & Fault Tolerance                                    & \cite{Lamport:1985:SPU:858336.858339} and 
+\cite{Dijkstra:1974:SSS:361179.361202} & \cellcolor[gray]{0.9}  \\\hline\hline
+
+\multirow{2}{*}{2}  & Tu & 3 April & Discussion                                          & \cite{Lamport:1982:BGP:357172.357176} & \multirow{2}{*}{Project Proposal}  \\\cline{2-5}
+
+                    & Th & 5 April & Distributed Time I                              & \cellcolor[gray]{0.9} & \\\hline\hline
+
+\multirow{2}{*}{3}  & Tu & 10 April & Discussion                                         & \cite{Lamport:1978:TCO:359545.359563} & \cellcolor[gray]{0.9} \\\cline{2-5}
+                    & Th & 5 April &  Distributed Consensus I                           & \cellcolor[gray]{0.9} & \cellcolor[gray]{0.9}  \\\hline\hline
+
+\multirow{2}{*}{4}  & Tu & 17 April & Discussion                                         & \cite{Fischer:1985:IDC:3149.214121}  & \multirow{2}{*}{1st Progress Report}  \\\cline{2-5}
+                    & Th & 19 April & Distributed Consensus II                           & \cellcolor[gray]{0.9} &   \\\hline\hline
+
+\multirow{2}{*}{5}  & Tu & 24 April & Discussion                                         & \cite{Lamport:1998:PP:279227.279229} and \cite{lamport01paxos} & \cellcolor[gray]{0.9}  \\\cline{2-5}
+                    & Th & 26 April & Distributed Time II                                & \cellcolor[gray]{0.9} & \cellcolor[gray]{0.9}  \\\hline\hline
+
+\multirow{2}{*}{6}  & Tu & 1 May & Discussion                                           & \cite{Fidge_1988} and \cite{Mattern89virtualtime} & \cellcolor[gray]{0.9}  \\\cline{2-5}
+                    & Th & 3 May & Limits of Distributed Systems                        & \cellcolor[gray]{0.9} & \cellcolor[gray]{0.9}  \\\hline\hline
+
+\multirow{2}{*}{7}  & Tu & 8 May & Discussion                                           & \cite{Lynch:1989:HIP:72981.72982} and \cite{Gilbert:2002:BCF:564585.564601} & \multirow{2}{*}{2nd Progress Report}  \\\cline{2-5}
+                    & Th & 10 May & Recent Work: Distributed Locking                   & \cellcolor[gray]{0.9} &   \\\hline\hline
+
+\multirow{2}{*}{8}  & Tu & 15 May & Discussion                                         & \cite{Burrows:2006:CLS:1298455.1298487} and \cite{Chandra:2007:PML:1281100.1281103} & \cellcolor[gray]{0.9}  \\\cline{2-5}
+                    & Th & 17 May & Recent Work: Distributed Data                      & \cellcolor[gray]{0.9} & \cellcolor[gray]{0.9}  \\\hline\hline
+
+\multirow{2}{*}{9}  & Tu & 22 May & Discussion                                         & \cite{Chang:2006:BDS:1267308.1267323}, \cite{DeCandia:2007:DAH:1294261.1294281}
+ and \cite{Lakshman:2010:CDS:1773912.1773922}  & \cellcolor[gray]{0.9}  \\\cline{2-5}
+                    & Th & 24 May & Recent Work: Distributed Computing                 & \cellcolor[gray]{0.9} & \cellcolor[gray]{0.9}  \\\hline\hline
+
+{10}  & Tu & 29 May & Discussion                                                       & \cite{Dean:2008:MSD:1327452.1327492} & \cellcolor[gray]{0.9}  \\\hline
+\end{tabular}
+\label{tab:calendar}
+\end{sidewaystable}
+
+
+\section{Papers}
+\label{sec:papers}
+
+\bibliographystyle{alpha}
+\nobibliography{cmsc23310}
+
+We will be discussing the following papers in this course:
+
+\subsection{Getting Started}
+\begin{itemize}
+\bibentryitem{Lamport:1985:SPU:858336.858339}
+\bibentryitem{Dijkstra:1974:SSS:361179.361202}
+\end{itemize}
+
+
+\subsection{Fault Tolerance}
+
+\begin{itemize}
+\bibentryitem{Pease:1980:RAP:322186.322188}
+\bibentryitem{Lamport:1982:BGP:357172.357176}
+\bibentryitem{Castro:2002:PBF:571637.571640}
+\end{itemize}
+
+\subsection{Distributed Consensus}
+\begin{itemize}
+\bibentryitem{Fischer:1985:IDC:3149.214121}
+\bibentryitem{Lamport:1998:PP:279227.279229}
+\bibentryitem{lamport01paxos}
+\end{itemize}
+
+
+\subsection{Distributed Time}
+
+\begin{itemize}
+\bibentryitem{Lamport:1978:TCO:359545.359563}
+\bibentryitem{Fidge_1988}
+\bibentryitem{Mattern89virtualtime}
+\end{itemize}
+
+
+\subsection{Other topics and surveys}
+
+\begin{itemize}
+\bibentryitem{Lynch:1989:HIP:72981.72982}
+\bibentryitem{Gilbert:2002:BCF:564585.564601}
+\end{itemize}
+
+
+\subsection{Recent papers}
+
+\begin{itemize}
+\bibentryitem{Burrows:2006:CLS:1298455.1298487}
+\bibentryitem{Chang:2006:BDS:1267308.1267323}
+\bibentryitem{DeCandia:2007:DAH:1294261.1294281}
+\bibentryitem{Chandra:2007:PML:1281100.1281103}
+\bibentryitem{Dean:2008:MSD:1327452.1327492}
+\bibentryitem{Lakshman:2010:CDS:1773912.1773922}
+\end{itemize}
+
+
+
+\section{Grading}
+
+The final grade will be divided as follows: 20\% response papers (each weighed equally), 20\% final paper, 20\% participation in discussions, 40\% project. The project grade will be further divided thusly: 15\% for the project proposal, 25\% for each progress report, and 35\% for the final presentation. There will be no midterms or final exam. 
+
+\subsection{Types of grades}
+
+Students may take this course for a quality grade (a ``letter'' grade) or a pass/fail grade. Students may declare, before handing in their final paper, whether (depending on their final grade) they want to receive a letter grade, a pass/fail grade or withdraw from the course (a \emph{W} grade). For example, students can declare ``If my final grade is a C+ or lower, I will take a \emph{P} (Pass) instead of a letter grade and, if my grade is an \emph{F}, I wish to take a \emph{W}''. By default, all students are assumed to be taking the course for a quality grade.
+
+\begin{quote}
+Note: \emph{Students taking this course to meet general education or concentration requirements must take the course for a letter grade}. 
+\end{quote}
+
+
+\section{Policy on Academic Honesty}
+
+The University of Chicago has a formal policy on academic honesty that you are expected to adhere to:
+
+\begin{center}
+\url{http://studentmanual.uchicago.edu/academic/index.shtml#honesty}
+\end{center}
+
+In brief, academic dishonesty (handing in someone else's work as your own, taking existing code and not citing its origin, etc.) will \emph{not} be tolerated in this course. Depending on the severity of the offense, you risk getting a hefty point penalty or being dismissed altogether from the course. All occurrences of academic dishonesty will furthermore be referred to the Dean of Students office, which may impose further penalties, including suspension and expulsion.
+
+Even so, collaboration between students is certainly allowed (and encouraged) \emph{as long as you don't hand someone else's work as your own}. If you have discussed parts of an assignment with someone else, then make sure to say so. If you consulted other sources, please make sure you cite these sources.
+
+If you have any questions regarding what would or would not be considered academic dishonesty in this course, please don't hesitate to ask the instructor.
+
+
+\section{Asking Questions}
+\label{asking}
+
+This course has an \emph{open door policy} for asking questions. Instead of setting fixed office hours, you are welcome to consult with the instructor at any time. Nonetheless, you should try to give the instructor, whenever possible, some advance warning of your visit (by e-mail) to make sure that he will be in the office at that time.
+
+The preferred form of support for this course is though the \emph{course mailing list}, which can be used to ask questions and share useful information with your classmates. You can subscribe to the mailing list in the following web page:
+
+\begin{center}
+\url{http://mailman.cs.uchicago.edu/mailman/listinfo/cmsc23310}
+\end{center}
+
+All questions regarding the assigned readings and the projects must be sent to the mailing list, and not directly to the instructor, as this allows your classmates to join in the discussion and benefit from the replies to your question. This rule will be applied strictly: if you send a message directly to the instructor, you will only get a reply telling you to send your question to the mailing list. Take into account that, given the open-ended nature of the projects, discussing the projects openly (even their internal details) is encouraged and is not considered a breach of academic honesty policies.
+
+\section{Acknowledgements}
+
+We gratefully acknowledge the suggestions and feedback provided by Jacob Matthews (Google) and Lars Bergstrom (University of Chicago) in preparing the reading list for this course.
+
+\end{document}

@@ -1,0 +1,15 @@
+Deep learning is emerging as a major technique for solving problems in a variety of fields, including computer vision, personalized medicine, autonomous vehicles, and natural language processing. Critical to success in these target domains is the development of learning systems: deep learning frameworks that support the tasks of learning complex models and inferencing with those models, and targeting many devices including CPUs, GPUs, mobile device, edge devices, computer clusters, and scalable parallel systems. The systematic study of how to build and optimize such systems is an active area of research.
+
+This course is aimed as an introduction to this topic. We will cover various aspects of deep learning systems, including: basics of deep learning, programming models for expressing machine learning models, automatic differentiation methods used to compute gradients for training, memory optimization, scheduling, data and model parallel and distributed learning, hardware acceleration, domain specific languages, workflows for large-scale machine learning including hyper parameter optimization and uncertainty quantification, and training data and model serving. Many of these topics intersect with existing research directions in databases, systems and networking, architecture, and programming languages. The goal is to present a comprehensive picture of how current deep learning systems work, discuss and explore research opportunities for extending and building on existing frameworks, and deep dive into the accelerators being developed by numerous startups to address the performance needs of the machine learning community.
+
+We will split out time between concepts and practice, with a typical week having one lecture on a specific aspect of deep learning systems and one lab/discussion session in which technologies such as Keras, Tensorflow, CNTK, Mxnet, and PyTorch are used to address that specific aspect. Some guest lectures may cover emerging computer architectures for next generation deep learning accelerators.
+
+At the end of the quarter, students will be able to:
+
+#. XXX
+#. XXX
+#. XXX
+#. XXX
+
+This course will also provide useful background for students wishing to take our Spring 2019 class on Neuromorphic Computing. 
+

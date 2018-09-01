@@ -1,0 +1,400 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{fancybox}
+\usepackage{multirow}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{colortbl}
+\usepackage{rotating}
+\usepackage{verbatim}
+\usepackage{url}
+\usepackage{bibentry}
+
+\newcommand{\bibentryitem}[1]{\item \bibentry{#1}}
+
+%opening
+\title{CMSC 23310/33310\\Advanced Distributed Systems\\{\small Last updated: \today}}
+\author{Department of Computer Science\\University of Chicago}
+\date{}
+
+\setcounter{tocdepth}{1}
+
+\titlecontents{section}
+[1em]
+{\sffamily}
+{}
+{}
+{\titlerule*[0.5pc]{.}\contentspage\hspace*{1em}}
+\renewcommand\contentsname{Contents of this Document}
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\begin{center}
+\begin{minipage}{0.6\textwidth}
+\begin{center}
+\emph{Spring 2014 Quarter}
+\end{center}
+\textbf{Dates:} March 31 -- June 4, 2014
+
+\textbf{Time and Location:} Mondays and Wednesdays 1:30-2:50 in Cobb 301
+
+\textbf{Website:} \url{http://www.classes.cs.uchicago.edu/archive/2014/spring/23310-1/}
+\vspace{1em}
+
+\textbf{Lecturer:} Borja Sotomayor
+
+\textbf{E-mail:} borja@cs.uchicago.edu
+
+\textbf{Office:} Ryerson 151
+
+\textbf{Office hours:} By appointment
+\end{minipage}
+
+\end{center}
+
+\vspace{2ex}
+
+\titleformat{\section}[block]
+{\filcenter\normalfont\sffamily}
+{}{0em}{}
+
+\begin{center}
+\shadowbox{
+\begin{minipage}{0.6\textwidth}
+\tableofcontents
+\end{minipage}
+}
+\end{center}
+
+\titleformat{\section}[block]
+{\large\sffamily}
+{}{0em}{\titlerule\\\bfseries}
+
+\titleformat{\subsection}[block]
+{\normalfont\sffamily\bfseries}
+{}{0em}{}
+
+\titleformat{\subsubsection}[block]
+{\normalfont\bfseries}
+{}{0em}{}
+
+\pagebreak
+
+\section{Course Description and Learning Goals}
+
+In recent years, large distributed systems have taken a prominent role not just in scientific inquiry, but also in our daily lives. When we perform a search on Google, stream content from Netflix, place an order on Amazon, or catch up on the latest comings-and-goings on Facebook, our seemingly minute requests are processed by complex systems that sometimes include hundreds of thousands of computers, connected by both local and wide area networks.
+
+Recent papers in the field of Distributed Systems have described several solutions (such as BigTable, MapReduce, Spanner, Raft, Dynamo, Cassandra, etc.) for managing large-scale data and computation. However, building and using these systems poses a number of more fundamental challenges: How do we keep the system operating correctly even when individual machines fail? How do we ensure that all the machines have a consistent view of the system's state? (and how do we ensure this in the presence of failures?) How can we determine the order of events in a system where we can't assume a single global clock?
+
+Many of these fundamental problems were identified and solved over the course of several decades, starting in the 1970's. In this course, we will engage in reading and discussing seminal work in Distributed Systems from the last 35 years to (1) identify the fundamental issues raised in this earlier work, (2) relate those issues to current research problems, and (3) evaluate and compare the solutions proposed in both early and recent work. During this course, students will also implement a distributed system that requires them to manage distribute resources and evaluate whether the resulting system has certain properties, such as reliability, scalability, etc.
+
+At the end of the quarter, students will be able to:
+
+\begin{enumerate}
+ \item Identify the research questions posed in a scholarly paper and the solutions proposed in that paper.
+ \item Identify the main contributions and conclusions in a scholarly paper, and determine whether they are well supported by evaluating and criticizing the arguments, proofs, or experimental results in that paper.
+ \item Compare and contrast different distributed systems for managing large-scale data and computation.
+ \item Evaluate whether an implementation of a distributed system is reliable, fault-tolerant, scalable, and/or highly available.
+\end{enumerate}
+
+A B+ or higher in CMSC 23300 (Networks and Distributed Systems) is a prerequisite for this course. Students can petition to have this requirement waived, as long as they have taken at least one other 200-level CS systems course.
+
+\pagebreak
+
+\section{Course Organization}
+
+This course is divided into three components:
+
+\begin{description}
+
+ \item[Reading and Discussion of Primary Sources:] Several papers will be assigned each week, to be discussed on both Monday and Wednesday.
+
+ \item[Homeworks:] Two short homework assignments will be given in the first half of the quarter.
+ 
+ \item[Project and Paper:] In the second half of the quarter, students will have to implement a distributed system drawing upon the seminal work covered in the first half of the quarter. Based on their projects, students will have to write a final paper evaluating the features and performance of their project.
+
+\end{description}
+
+The discussion component is described in more detail below.
+
+\subsection{Paper discussion}
+
+Every week, we will discuss several papers in class (the \emph{Course Schedule} section below provides a week-by-week list of papers). The papers for a given week will have a common theme, but the papers will be split between the Monday and Wednesday classes. 
+
+At the beginning of the quarter, students will be divided into three groups: A, B, and C. Although the composition of the groups will remain fixed throughout the quarter, the \emph{role} that each group will take during a discussion section will rotate every week. There are three roles:
+
+\begin{description}
+ \item \textsc{The Questioners}: This group is responsible for preparing a list of 4--5 discussion questions about the papers to be discussed in class. For a given week, \textsc{The Questioners} must prepare their questions during the preceding week, and send them to the rest of the class by 3pm on Friday (of the preceding week). This means that \textsc{The Questioners} must read all the papers for their assigned week several days in advance of the actual discussion sessions.
+ 
+ \item \textsc{The Answerers}: During a discussion, this group takes the lead in answering the questions posed by \textsc{The Questioners}. In practice, this means that, whenever there is silence in the discussion, everyone looks at \textsc{The Answerers} to keep the discussion moving.
+ 
+ \item \textsc{The Observers}: During a discussion, this group will take notes on a shared document. These notes are not meant to be a transcription of what is being said in the discussion; they should capture the major take-away points of the discussion, as well as any issues \textsc{The Observers} feel should be discussed in more depth. \textsc{The Observers} can also search for additional resources, or answers to unresolved questions, on the Internet during the discussion itself.
+\end{description}
+
+These roles do not preclude anyone in the class from participating in the discussion. A member of \textsc{The Observers} can jump in when a question is posed, and a member of \textsc{The Answerers} can pose a new question on the fly. 
+
+
+\section{Course Schedule}
+\label{sec:schedule}
+
+\bibliographystyle{alpha}
+\nobibliography{cmsc23310}
+
+\subsection{Week 1}
+
+The Monday, March 30, class will \emph{not} be a discussion session. It will be an introductory lecture, and there is no required reading. \emph{There will be no class on Wednesday, April 2}
+
+
+\subsection{Week 2 --- Distributed Time}
+
+\subsubsection{Required reading for Monday, April 7}
+
+\begin{itemize}
+\bibentryitem{Lamport:1978:TCO:359545.359563}
+\end{itemize}
+
+\subsubsection{Required reading for Wednesday, April 9}
+
+\begin{itemize}
+\bibentryitem{Fidge_1988}
+\bibentryitem{Mattern89virtualtime}
+\end{itemize}
+
+\subsubsection{Suggested reading}
+
+\begin{itemize}
+\bibentryitem{Ramanathan:1990:FCS:101838.101842}
+\bibentryitem{Mills:1994:IAS:190809.190343}
+\end{itemize}
+
+
+\subsection{Week 3 --- Distributed Consensus I}
+
+
+\subsubsection{Required reading for Monday, April 14}
+
+\begin{itemize}
+\bibentryitem{Lamport:1982:BGP:357172.357176}
+\end{itemize}
+
+\subsubsection{Required reading for Wednesday, April 16}
+
+\begin{itemize}
+\bibentryitem{Lampson79crashrecovery}
+\bibentryitem{Skeen:1983:FMC:1313337.1313750}
+\end{itemize}
+
+
+\subsubsection{Suggested reading}
+
+\begin{itemize}
+\bibentryitem{Pease:1980:RAP:322186.322188}
+\bibentryitem{Bernstein:1987:CCR:12518}
+\bibentryitem{Schneider:1990:IFS:98163.98167}
+\bibentryitem{Castro:2002:PBF:571637.571640}
+\end{itemize}
+
+
+\subsection{Week 4 --- Limits of Distributed Systems}
+
+
+\subsubsection{Required reading for Monday, April 21}
+
+\begin{itemize}
+\bibentryitem{Fischer:1985:IDC:3149.214121}
+\bibentryitem{Dolev:1987:MSN:7531.7533}
+\end{itemize}
+
+\subsubsection{Required reading for Wednesday, April 23}
+
+\begin{itemize}
+\bibentryitem{Gilbert:2002:BCF:564585.564601}
+\end{itemize}
+
+\subsubsection{Suggested reading}
+
+\begin{itemize}
+\bibentryitem{Lynch:1989:HIP:72981.72982}
+\end{itemize}
+
+
+\subsection{Week 5 --- Paxos}
+
+\subsubsection{Required reading for Monday, April 28 and Wednesday April 30}
+
+\begin{itemize}
+\bibentryitem{Lamport:1998:PP:279227.279229}
+\bibentryitem{lamport01paxos}
+\end{itemize}
+
+
+\subsection{Week 6 --- Distributed Consensus II}
+
+\subsubsection{Required reading for Monday, May 5}
+
+\begin{itemize}
+\bibentryitem{Burrows:2006:CLS:1298455.1298487}
+\bibentryitem{Chandra:2007:PML:1281100.1281103}
+\end{itemize}
+
+\subsubsection{Required reading for Wednesday, May 7}
+
+\begin{itemize}
+\bibentryitem{raft}
+\end{itemize}
+
+\subsection{Week 7 --- Distributed Hash Tables}
+
+\subsubsection{Required reading for Monday, May 12}
+
+\begin{itemize}
+\bibentryitem{Stoica:2001:CSP:964723.383071}
+\bibentryitem{Rowstron:2001:PSD:646591.697650}
+\end{itemize}
+
+\subsubsection{Required reading for Wednesday, May 14}
+
+\begin{itemize}
+\bibentryitem{DeCandia:2007:DAH:1294261.1294281}
+\end{itemize}
+
+\subsection{Week 8 --- Distributed Data}
+
+
+\subsubsection{Required reading for Monday, May 19}
+
+\begin{itemize}
+\bibentryitem{Ghemawat:2003:GFS:1165389.945450}
+\bibentryitem{Dean:2008:MSD:1327452.1327492}
+\end{itemize}
+
+\subsubsection{Required reading for Wednesday, May 21}
+
+\begin{itemize}
+\bibentryitem{Corbett:2012:SGG:2387880.2387905}
+\end{itemize}
+
+\subsubsection{Suggested reading}
+
+\begin{itemize}
+\bibentryitem{Lakshman:2010:CDS:1773912.1773922}
+\bibentryitem{Chang:2006:BDS:1267308.1267323}
+\end{itemize}
+
+
+\subsection{Week 9 --- Distributed Currency}
+
+\emph{NOTE: No class on Monday, May 26 -- Memorial Day}
+
+\subsubsection{Required reading for Wednesday, May 28}
+
+\begin{itemize}
+\bibentryitem{bitcoin}
+\end{itemize}
+
+\subsection{Week 10 --- Review}
+
+\subsubsection{Required reading for Monday, June 2}
+
+\begin{itemize}
+\bibentryitem{Dijkstra:1974:SSS:361179.361202}
+\bibentryitem{Lamport:1985:SPU:858336.858339}
+\end{itemize}
+
+\subsubsection{No required reading for Wednesday, June 4}
+
+\section{Grading}
+
+The final grade will be divided as follows: 
+
+\begin{itemize}
+ \item 15\% homeworks (each weighed equally)
+ \item 45\% participation in discussions, broken down into:
+ \begin{itemize}
+ \item 15\%: In-class participation
+ \item 15\%: Piazza participation
+ \item 15\%: Participation in \textsc{The Observers}
+ \end{itemize}
+ See below for a detailed rubric for each of these components.
+ 
+ \item 20\% project
+ \item 20\% final paper
+\end{itemize}
+
+There will be no midterms or final exam. 
+
+The ``in-class participation'' grade is an individual grade, scored out of 10:
+ 
+\begin{itemize}
+\item 10: Student participates consistently in all or most class discussions, even when part of \textsc{The Observers}.
+\item 9: Student participates consistently in all or most class discussions.
+\item 8: Student has actively participated in class discussions, but participation has not been consistent (e.g., very active in one discussion, completely silent in another)
+\item 7: Student has participated in class discussions, but falls below expectations.
+\item 0: Student has not participated in any class discussions.
+\end{itemize}
+
+The ``Piazza participation'' grade is an individual grade, mostly based on participation when the student is part of \textsc{The Questioners}. It is scored out of 10:
+ 
+\begin{itemize}
+\item 10: Student is consistently active on Piazza, not just contributing good questions when the student's group is \textsc{The Questioners} but also writing/answering posts outside his/her group.
+\item 9: Student consistently contributes good questions, but is only active on Piazza when his/her group is \textsc{The Questioners}.
+\item 8: Student has contributed questions or written/answered posts, but participation has not been consistent (e.g., very active one week, completely silent in another)
+\item 7: Student has contributed questions or written/answered posts, but falls below expectations.
+\item 0: Student has not written any meaningful posts or comments on Piazza.
+\end{itemize}
+
+The ``Participation in \textsc{The Observers}'' grade is a \emph{group} grade. A grade is assigned to the entire group whenever their role is \textsc{The Observers}, and the final grade is the average of those grades. Each student in the group gets the same grade. It is scored out of 10:
+
+\begin{itemize}
+\item 10: Discussion log is detailed and well-written, and the group has supplemented it with external references (not limited to the suggested reading for that week) and/or provided answers to questions that were left unanswered during the discussion.
+\item 9: Discussion log is detailed, divided into concrete sections, and well-written. The group has gone beyond just presenting their raw notes from the discussion, and has put some effort into polishing up the notes. Someone who has not attended the discussion or even read the paper would get the gist of what was discussed that week.
+\item 8: Discussion log accurately reflects the structure and content of the discussion, but it is closer to a collection of notes than a polished account of the discussion. Someone who attended the discussion would find it useful to recall what was discussed, but someone who did not could find it hard to parse.
+\item 7: The discussion log reflects some, but not all, of the discussion. It lacks structure and is composed of a collection of unpolished notes.
+\item Any discussion logs worse than a 7 will receive a 0.
+\end{itemize}
+
+\subsection{Types of grades}
+
+Students may take this course for a quality grade (a ``letter'' grade) or a pass/fail grade. Students may declare, before handing in their final paper, whether (depending on their final grade) they want to receive a letter grade or a pass/fail grade. For example, students can declare ``If my final grade is a C+ or lower, I will take a \emph{P} (Pass) instead of a letter grade''. By default, all students are assumed to be taking the course for a quality grade. Requests for withdrawals must be made before the final paper is handed in.
+
+\begin{quote}
+Note: \emph{Students taking this course to meet general education or concentration requirements must take the course for a letter grade}. 
+\end{quote}
+
+
+\section{Policy on Academic Honesty}
+
+The University of Chicago has a formal policy on academic honesty that you are expected to adhere to:
+
+\begin{center}
+\url{http://college.uchicago.edu/policies-regulations/academic-integrity-student-conduct}
+\end{center}
+
+In brief, academic dishonesty (handing in someone else's work as your own, taking existing code and not citing its origin, etc.) will \emph{not} be tolerated in this course. Depending on the severity of the offense, you risk getting a hefty point penalty or being dismissed altogether from the course. All occurrences of academic dishonesty will furthermore be referred to the Dean of Students office, which may impose further penalties, including suspension and expulsion.
+
+Even so, discussing the concepts necessary to complete the homeworks and project is certainly allowed (and encouraged).  Under \emph{no circumstances} should you show (or email) another student your code or post your solution to a web-page or social media site.  If you have discussed parts of an assignment with someone else, then make sure to say so in your submission (e.g., in a README file or as a comment at the top of your source code file). If you consulted other sources, please make sure you cite these sources.
+
+If you have any questions regarding what would or would not be considered academic dishonesty in this course, please don't hesitate to ask the instructor.
+
+\section{Asking Questions}
+\label{asking}
+
+The preferred form of support for this course is though \emph{Piazza} (\url{http://www.piazza.com/}), an on-line discussion service which can be used to ask questions and share useful information with your classmates. Students will be enrolled in Piazza at the start of the quarter.
+
+All questions regarding assignments or material covered in class must be sent to Piazza, and not directly to the instructors or TAs, as this allows your classmates to join in the discussion and benefit from the replies to your question. If you send a message directly to the instructor, you will get a reply politely asking you to send your question to Piazza. 
+
+Piazza has a mechanism that allows you to ask a private question, which will be seen only by the instructors and teaching assistants. This mechanism should be used \emph{only} for questions that require revealing part of your solution to a homework or project.
+
+Piazza also allows students to post anonymously. \emph{Anonymous posts will be ignored}. This is a majors-level course: you are expected to feel comfortable sharing your questions and thoughts with your classmates without hiding behind a veil of anonymity.
+
+Finally, all course announcements will be made through Piazza. It is your responsibility to check Piazza often to see if there are any announcements. Please note that you can configure your Piazza account to send you e-mail notifications every time there is a new post on Piazza. Just go to your ``Account/Email Settings'', and click on ``Edit Email Notifications'' under CMSC 23310. We 
+encourage you to select either the ``Real Time'' option (get a notification as soon as there are new posts) or the ``Smart Digest'' option (get a summary of all the posts sent over the last 1-6 hours -- you can select the frequency).
+
+\section{Acknowledgements}
+
+We gratefully acknowledge the suggestions and feedback provided by Anthony Nicholson, Jacob Matthews, Will Robinson, and Matthew Steffen (all at Google) and Lars Bergstrom (Mozilla) in preparing the reading list for this course.
+
+\end{document}
