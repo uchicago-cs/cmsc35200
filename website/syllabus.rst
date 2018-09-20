@@ -25,7 +25,7 @@ See `Calendar and Reading List <calendar.html>`_.
 Grading
 -------
 
-The final grade will be divided as follows: 
+The final grade will be divided as follows:  
 
 * 25% programming assignments (broken down into 10%, 15%)
 
