@@ -4,9 +4,13 @@ Here we collect materials relevant to the class.
 
 ## To do items
 
-* Schedule of lectures, topics, and invited speakers
-
+* Schedule of lectures and topics
 * Evaluation process
+* Potential invited speakers:
+    * Venkat Vishnawath: DNN implementation on MPPs
+    * Justin Wozniak: Hyperparameter optimization and related topics
+    * Ben Blaiszik: Model optimization and serving
+    * Rob Schreiber: Cerebras (if he can talk about it)
 
 ## Schedule
 
@@ -26,21 +30,21 @@ Here we collect materials relevant to the class.
     * ...
 1. Wednesday, October 24
     * ...
-1. Monday, October 29
+1. Monday, October 29: Rick at Kearns SAB?
     * ...
 1. Wednesday, October 31
     * ...
-1. Monday, November 5
-    * ...
-1. Wednesday, November 7
-    * ...
-1. Monday, November 12
-    * ...
-1. Wednesday, November 14
-    * ...
+1. Monday, November 5: Ian and Rick both away
+    * **Invited speaker?**
+1. Wednesday, November 7: Ian and Rick both away
+    * **Invited speaker?**
+1. Monday, November 12: Ian and Rick both away
+    * **Invited speaker?**
+1. Wednesday, November 14: Ian and Rick both away
+    * **Invited speaker?**
 1. Monday, November 19
     * ...
-1. Wednesday, November 21
+1. Wednesday, November 21 
     * ...
 1. Monday, November 26
     * ...
