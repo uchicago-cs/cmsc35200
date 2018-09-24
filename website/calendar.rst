@@ -21,6 +21,9 @@ As such, you may not get that much out of reading these references at the start
 of the quarter. Instead, they can be good reference material to re-read later on
 and see how everything fits together.
 
+- `Deep Learning <https://www.deeplearningbook.org>`_, Ian Goodfellow, Yoshua Bengio, Aaron Courville. MIT Press and online. 
+- Deep Learning with Python, Francois Chollet. Manning Publications, 2017. Introduces DL via Keras and Python.
+- `Neural Networks and Deep Learning <http://neuralnetworksanddeeplearning.com>`_, Michael Neilsen. A particularly nice presentation of back propagation.
 
 
 Week 2 - TOPIC TBD
