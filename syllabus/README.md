@@ -11,12 +11,15 @@ Here we collect materials relevant to the class.
     * Justin Wozniak: Hyperparameter optimization and related topics
     * Ben Blaiszik: Model optimization and serving
     * Rob Schreiber: Cerebras (if he can talk about it)
+    * Risi Kondor? 
     
 ## Rick's proposed syllabus
 
-1. Intro to deep learning, example problems, [assignment 1]
-1. A Walk walk through DL frameworks (layers, networks, optimization, etc.)
-1. Training vs Inference optimization 
+Note that we currently have 20 x 80 minute lectures scheduled, but we will both be away for 5 of these, leaving **15** only for us present material and potentially **5** for invited speakers.
+
+1. Intro to deep learning, example problems [assignment 1]
+1. A walk through DL frameworks (layers, networks, optimization, etc.)
+1. Training vs. inference optimization 
 1. Active learning [assignment 2]
 1. Back propagation and automatic differentiation
 1. Symbolic vs imperative engines
