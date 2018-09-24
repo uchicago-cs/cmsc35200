@@ -11,6 +11,32 @@ Here we collect materials relevant to the class.
     * Justin Wozniak: Hyperparameter optimization and related topics
     * Ben Blaiszik: Model optimization and serving
     * Rob Schreiber: Cerebras (if he can talk about it)
+    
+## Rick's proposed syllabus
+
+1. Intro to deep learning, example problems, [assignment 1]
+1. A Walk walk through DL frameworks (layers, networks, optimization, etc.)
+1. Training vs Inference optimization 
+1. Active learning [assignment 2]
+1. Back propagation and automatic differentiation
+1. Symbolic vs imperative engines
+1. Data parallelism [assignment 3]
+1. Model parallelism 
+1. Deep Learning Workflows
+1. Ensembles and HPO [project assignment]
+1. Architectures for Deep Learning Acceleration 
+1. GPUs
+1. Uncertainty Quantification
+1. Feature Attribution
+1. AI and Edge
+1. Neuromorphic Systems
+1. Project Reports
+1. Project Reports
+
+Missing:
+* External formats (ONYX, etc.)
+* Model serving, Prediction serving
+* TensorBoard type stuff
 
 ## Schedule
 
@@ -30,8 +56,8 @@ Here we collect materials relevant to the class.
     * ...
 1. Wednesday, October 24
     * ...
-1. Monday, October 29: Rick at Kearns SAB?
-    * ...
+1. Monday, October 29: Rick at Kearns SAB? Ian at NITRD event
+    * **Invited speaker?**
 1. Wednesday, October 31
     * ...
 1. Monday, November 5: Ian and Rick both away
