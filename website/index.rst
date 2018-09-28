@@ -1,5 +1,7 @@
-CMSC 35200 -- Learning Systems
-==============================
+CMSC 35200 -- Deep Learning Systems
+===================================
+
+Eckhart 312, Mondays and Wednesdays 1:30-2:50pm.
 
 Course Staff
 ~~~~~~~~~~~~
