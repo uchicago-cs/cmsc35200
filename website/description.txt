@@ -11,5 +11,5 @@ At the end of the quarter, students will:
 #. Understand major challenges in efficient deep learning and how those challenges are addressed in different systems.
 #. Have basic knowledge of research challenges in deep learning system design and implementation.
 
-This course will also provide useful background for students wishing to take our Spring 2019 class on Neuromorphic Computing. 
+This course will also provide useful background for students wishing to take our Spring 2019 class, **CMSC 35350-1: Neuromorphic Computing**. 
 
