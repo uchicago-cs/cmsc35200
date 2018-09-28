@@ -4,12 +4,12 @@ This course is aimed as an introduction to this topic. We will cover various asp
 
 We will split out time between concepts and practice, with a typical week having one lecture on a specific aspect of deep learning systems and one lab/discussion session in which technologies such as Keras, Tensorflow, CNTK, Mxnet, and PyTorch are used to address that specific aspect. Some guest lectures may cover emerging computer architectures for next generation deep learning accelerators.
 
-At the end of the quarter, students will be able to:
+At the end of the quarter, students will:
 
-#. XXX
-#. XXX
-#. XXX
-#. XXX
+#. Understand the purpose of deep learning systems.
+#. Be able to use common deep learning tools such as Keras, TensorFlow, and PyTorch
+#. Understand major challenges in efficient deep learning and how those challenges are addressed in different systems.
+#. Have basic knowledge of research challenges in deep learning system design and implementation.
 
 This course will also provide useful background for students wishing to take our Spring 2019 class on Neuromorphic Computing. 
 
