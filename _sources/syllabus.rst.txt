@@ -43,36 +43,6 @@ The final grade will be divided as follows:
 
 There will be no midterms or final exam. 
 
-The "in-class participation" grade is an individual grade, scored out of 10:
- 
-* 10: Student participates consistently in all or most class discussions, even when part of *The Observers*.
-* 9: Student participates consistently in all or most class discussions.
-* 8: Student has actively participated in class discussions, but participation has not been consistent (e.g., very active in one discussion, completely silent in another)
-* 7: Student has participated in class discussions, but falls below expectations.
-* 0: Student has not participated in any class discussions.
-
-The "Piazza participation" grade is an individual grade, mostly based on participation when the student is part of *The Questioners*. It is scored out of 10:
- 
-* 10: Student is consistently active on Piazza, not just contributing good questions when the student's group is *The Questioners* but also writing/answering posts outside his/her group.
-* 9: Student consistently contributes good questions, but is only active on Piazza when his/her group is *The Questioners*.
-* 8: Student has contributed questions or written/answered posts, but participation has not been consistent (e.g., very active one week, completely silent in another)
-* 7: Student has contributed questions or written/answered posts, but falls below expectations.
-* 0: Student has not written any meaningful posts or comments on Piazza.
-
-The "Participation in *The Observers*" grade is a *group* grade. A grade is assigned to the entire group whenever their role is *The Observers*, and the final grade is the average of those grades. Each student in the group gets the same grade. It is scored out of 10:
-
-* 10: Discussion log is detailed and well-written, and the group has supplemented it with external references (not limited to the suggested reading for that week) and/or provided answers to questions that were left unanswered during the discussion.
-* 9: Discussion log is detailed, divided into concrete sections, and well-written. The group has gone beyond just presenting their raw notes from the discussion, and has put some effort into polishing up the notes. Someone who has not attended the discussion or even read the paper would get the gist of what was discussed that week.
-* 8: Discussion log accurately reflects the structure and content of the discussion, but it is closer to a collection of notes than a polished account of the discussion. Someone who attended the discussion would find it useful to recall what was discussed, but someone who did not could find it hard to parse.
-* 7: The discussion log reflects some, but not all, of the discussion. It lacks structure and is composed of a collection of unpolished notes.
-* Any discussion logs worse than a 7 will receive a 0.
-
-
-Types of grades
-~~~~~~~~~~~~~~~
-
-Students may take this course for a quality grade (a “letter” grade) or a pass/fail grade. By default, we assume students are taking the class for a quality grade. We will honor all requests to withdraw or take the class pass/fail *before* the final paper is due.
-
 
 Policy on academic honesty
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -132,12 +102,8 @@ is your responsibility to check Piazza often to see if there are any
 announcements. Please note that you can configure your Piazza account to
 send you e-mail notifications every time there is a new post on Piazza.
 Just go to your Account Settings, then to Class Settings, click on "Edit
-Notifications" under CMSC 23310. We encourage you to select either the
+Notifications" under CMSC 35200. We encourage you to select either the
 "Real Time" option (get a notification as soon as there are new posts)
 or the "Smart Digest" option (get a summary of all the posts sent over
 the last 1-6 hours – you can select the frequency).
 
-Acknowledgements
-~~~~~~~~~~~~~~~~
-
-We gratefully acknowledge the suggestions and feedback provided by Anthony Nicholson, Jacob Matthews, Will Robinson, and Matthew Steffen (all at Google) and Lars Bergstrom (Mozilla) in preparing the reading list for this course.
