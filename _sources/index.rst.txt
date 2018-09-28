@@ -1,5 +1,5 @@
-CMSC 35200 -- Learning Systems
-==============================
+CMSC 35200 -- Deep Learning Systems
+===================================
 
 Course Staff
 ~~~~~~~~~~~~

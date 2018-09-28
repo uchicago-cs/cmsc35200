@@ -1,21 +1,18 @@
 Autumn 2018 Calendar and Reading List
 -------------------------------------
 
-Make sure you don't miss the :ref:`additional-reading` at the bottom of this page.
-
 Week 1: Motivation
 ~~~~~~
 
 **Required reading for Monday, October 1**
 
-- TBD
+- `Tensorflow: a system for large-scale machine learning <https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf>`_, Abadi, Martín, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin et al. OSDI, vol. 16, pp. 265-283. 2016.
 
 **Required reading for Wednesday, October 3**
 
 - TBD
 
-No required reading for this week. We will be covering basic terminology and
-concepts in deep learning.
+No required reading for this week. We will be covering basic terminology and concepts in deep learning.
 
 **Suggested Reading**
 
@@ -24,7 +21,10 @@ As such, you may not get that much out of reading these references at the start
 of the quarter. Instead, they can be good reference material to re-read later on
 and see how everything fits together.
 
-- `Notes on Distributed Systems for Young Bloods <https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/>`_
+- `Deep Learning <https://www.deeplearningbook.org>`_, Ian Goodfellow, Yoshua Bengio, Aaron Courville. MIT Press and online. 
+- Deep Learning with Python, Francois Chollet. Manning Publications, 2017. Introduces DL via Keras and Python.
+- `Neural Networks and Deep Learning <http://neuralnetworksanddeeplearning.com>`_, Michael Neilsen. A particularly nice presentation of back propagation.
+
 
 Week 2 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
