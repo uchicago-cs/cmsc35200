@@ -11,9 +11,9 @@ Course organization
 
 This course is divided into three components:
 
-* **Reading and Discussion of Primary Sources**: Several papers will be assigned each week, to be discussed on both Tuesday and Thursday.
-* **Programming Assignments**: Two short programming assignments will be given throughout the quarter.
-* **Project and Paper**: Students will have to implement a distributed system drawing upon the seminal work covered in the class discussions. Based on their projects, students will have to write a final paper evaluating the features and performance of their project.
+* **Lectures**: The Monday and Wednesday lectures will present technical material on deep learning systems.
+* **Programming Assignments**: Four short programming assignments will be given throughout the quarter.
+* **Project and Paper**: Students have to define and complete a project that covers some aspect of deep learning systems. Based on their projects, students have to write a final paper evaluating the features and performance of their project. See `Project and Paper <project.html>`_ for more information.
 
 
 Course Schedule
@@ -27,19 +27,13 @@ Grading
 
 The final grade will be divided as follows:  
 
-* 25% programming assignments (broken down into 10%, 15%)
+* 30% for the four programming assignments 
 
-* 35% participation in discussions, broken down into:
-
-  * 15%: In-class participation
-  * 10%: Piazza participation
-  * 10%: Participation in *The Observers*
-  
-  See below for a detailed rubric for each of these components.
-  
-* 20% project
+* 40% project
 
 * 20% final paper
+
+* 10% class participation
 
 There will be no midterms or final exam. 
 
@@ -80,10 +74,10 @@ used to ask questions and share useful information with your classmates.
 Students will be enrolled in Piazza at the start of the quarter.
 
 All questions regarding assignments or material covered in class must be
-sent to Piazza, and not directly to the instructors or TAs, as this
+sent to Piazza, and not directly to the instructors, as this
 allows your classmates to join in the discussion and benefit from the
 replies to your question. If you send a message directly to the
-instructor or the TAs, you will get a gentle reminder that your question
+instructor, you will get a gentle reminder that your question
 should be asked on Piazza.
 
 Piazza has a mechanism that allows you to ask a private question, which
@@ -93,7 +87,7 @@ part of your solution to an assignment.
 
 Piazza also allows students to post anonymously. *Anonymous posts will
 be ignored* (you will also get a gentle reminder asking you to not post
-anonymously). This is a majors-level course: you are expected to feel
+anonymously). You are expected to feel
 comfortable sharing your questions and thoughts with your classmates
 without hiding behind a veil of anonymity.
 
