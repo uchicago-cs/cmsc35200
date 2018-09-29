@@ -17,14 +17,15 @@ Specific topics to be covered:
 * Uncertainty quantification
 
 Week 1: Motivation
-~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 **Monday, October 1**
 
-*Required reading*
-
-- `Deep Learning with Python <https://towardsdatascience.com/deep-learning-with-python-703e26853820>`_. Brief tutorial.
-- `Tensorflow: a system for large-scale machine learning <https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf>`_, Abadi, Martín, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin et al. OSDI, vol. 16, pp. 265-283. 2016.
+- Slides to be shown are here. 
+- Sign up for `Google Collaboratory <https://colab.research.google.com>`_, which we will use to run examples. 
+- Read Chapters 1 and 2 of `Deep Learning with Python <http://www.deeplearningitalia.com/wp-content/uploads/2017/12/Dropbox_Chollet.pdf>`_ by Francois Chollet.
+- Complete all of the exercises in Chapter 2 of Chollet.
+- Read `Tensorflow: a system for large-scale machine learning <https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf>`_, Abadi, Martín, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin et al. OSDI, vol. 16, pp. 265-283. 2016.
 
 **Wednesday, October 3**
 
@@ -37,7 +38,6 @@ of the quarter. Instead, they can be good reference material to re-read later on
 and see how everything fits together.
 
 - `Deep Learning <https://www.deeplearningbook.org>`_, Ian Goodfellow, Yoshua Bengio, Aaron Courville. MIT Press and online. 
-- `Deep Learning with Python <http://www.deeplearningitalia.com/wp-content/uploads/2017/12/Dropbox_Chollet.pdf>`_, Francois Chollet. Manning Publications, 2017. Introduces DL via Keras and Python. There is an `online forum <https://forums.manning.com/forums/deep-learning-with-python>`_.
 - `Neural Networks and Deep Learning <http://neuralnetworksanddeeplearning.com>`_, Michael Neilsen. A particularly nice presentation of back propagation.
 - `Cloud Computing for Science and Engineering <https://cloud4scieng.org>`_, Ian Foster and Dennis Gannon. Describes how to use deep learning services provided by Amazon, Google, and Microsoft.
 
@@ -45,11 +45,11 @@ and see how everything fits together.
 Week 2 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, October 8**
+**Monday, October 8**
 
 - TBD
 
-**Required reading for Wednesday, October 10**
+**Wednesday, October 10**
 
 - TBD
 
@@ -57,55 +57,55 @@ Week 2 - TOPIC TBD
 Week 3 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, October 15**
+**Monday, October 15**
 
 - TBD
 
-**Required reading for Wednesday, October 17**
+**Wednesday, October 17**
 
 - TBD
 
 Week 4 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, October 22**
+**Monday, October 22**
 
 - TBD
 
-**Required reading for Wednesday, October 24**
+**Wednesday, October 24**
 
 - TBD 
 
 Week 5 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, October 29**
+**Monday, October 29**
 
 - TBD
 
-**Required reading for Wednesday, October 31**
+**Wednesday, October 31**
 
 - TBD
 
 Week 6 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, November 5**
+**Monday, November 5**
 
 - TBD
 
-**Required reading for Wednesday, November 7**
+**Wednesday, November 7**
 
 - TBD
 
 Week 7 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, November 12**
+**Monday, November 12**
 
 - TBD
 
-**Required reading for Wednesday, November 14**
+**Wednesday, November 14**
 
 - TBD
 
@@ -113,22 +113,22 @@ Week 7 - TOPIC TBD
 Week 8 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, November 19**
+**Monday, November 19**
 
 - TBD
 
-**Required reading for Wednesday, November 21**
+**Wednesday, November 21**
 
 - TBD
 
 Week 9 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, November 26**
+**Monday, November 26**
 
 - TBD
 
-**Required reading for Wednesday, November 28**
+**Wednesday, November 28**
 
 - TBD
 
