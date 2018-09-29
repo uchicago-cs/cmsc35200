@@ -6,13 +6,12 @@ Week 1: Motivation
 
 **Required reading for Monday, October 1**
 
+- `Deep Learning with Python <https://towardsdatascience.com/deep-learning-with-python-703e26853820>`_. Brief tutorial.
 - `Tensorflow: a system for large-scale machine learning <https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf>`_, Abadi, Martín, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin et al. OSDI, vol. 16, pp. 265-283. 2016.
 
 **Required reading for Wednesday, October 3**
 
 - TBD
-
-No required reading for this week. We will be covering basic terminology and concepts in deep learning.
 
 **Suggested Reading**
 
@@ -22,8 +21,9 @@ of the quarter. Instead, they can be good reference material to re-read later on
 and see how everything fits together.
 
 - `Deep Learning <https://www.deeplearningbook.org>`_, Ian Goodfellow, Yoshua Bengio, Aaron Courville. MIT Press and online. 
-- Deep Learning with Python, Francois Chollet. Manning Publications, 2017. Introduces DL via Keras and Python.
+- `Deep Learning with Python <http://www.deeplearningitalia.com/wp-content/uploads/2017/12/Dropbox_Chollet.pdf>`_, Francois Chollet. Manning Publications, 2017. Introduces DL via Keras and Python. There is an `online forum <https://forums.manning.com/forums/deep-learning-with-python>`_.
 - `Neural Networks and Deep Learning <http://neuralnetworksanddeeplearning.com>`_, Michael Neilsen. A particularly nice presentation of back propagation.
+- `Cloud Computing for Science and Engineering <https://cloud4scieng.org>`_, Ian Foster and Dennis Gannon. Describes how to use deep learning services provided by Amazon, Google, and Microsoft.
 
 
 Week 2 - TOPIC TBD

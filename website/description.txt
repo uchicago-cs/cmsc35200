@@ -4,6 +4,21 @@ This course is aimed as an introduction to this topic. We will cover various asp
 
 We will split out time between concepts and practice, with a typical week having one lecture on a specific aspect of deep learning systems and one lab/discussion session in which technologies such as Keras, Tensorflow, CNTK, Mxnet, and PyTorch are used to address that specific aspect. Some guest lectures may cover emerging computer architectures for next generation deep learning accelerators.
 
+Specific topics to be covered:
+
+* Introduction to deep learning models
+* Functional content of deep learning frameworks
+* Software architecture and design of frameworks
+* Abstraction layers for deep learning
+* Performance and benchmarking deep learning systems 
+* Hardware architectures for accelerating deep learning 
+* Parallelism (model, data, ensemble)
+* Portable representations and translations of models
+* Optimization for training, inference
+* Workflows for machine learning and workflow tools
+* Hyper-parameter optimization and ensembles
+* Uncertainty quantification
+
 At the end of the quarter, students will:
 
 #. Understand the purpose of deep learning systems.
