@@ -16,6 +16,10 @@ Specific topics to be covered:
 * Hyper-parameter optimization and ensembles
 * Uncertainty quantification
 
+Other potential topics:
+
+* Compression
+
 Week 1: Motivation and Introduction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -44,8 +48,8 @@ and see how everything fits together.
 - `Cloud Computing for Science and Engineering <https://cloud4scieng.org>`_, Ian Foster and Dennis Gannon. MIT Press and online. Describes how to use deep learning services provided by Amazon, Google, and Microsoft.
 
 
-Week 2 - TOPIC TBD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 2 - Deep Learning Frameworks
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Monday, October 8**
 
@@ -56,14 +60,16 @@ Week 2 - TOPIC TBD
 - TBD
 
 
-Week 3 - TOPIC TBD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 3 - Performance of Deep Learning Systems
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Monday, October 15**
+**Monday, October 15**: Measuring performance
 
 - TBD
 
-**Wednesday, October 17**
+**Wednesday, October 17**: Benchmarking
+
+* Papers to read:*
 
 - TBD
 
