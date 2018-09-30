@@ -2,18 +2,22 @@ CMSC 35200 Project and Paper
 ----------------------------
 
 The project and paper are an important part of the course. 
-Students have to define and complete a project that covers some aspect of deep learning systems.
-Based on their projects, students have to write a final paper evaluating the features and performance of their project.
+You have to define and complete a project that covers some aspect of deep learning systems.
+Based on your project, you have to write a final paper evaluating its features and performance.
 
 Students may work alone or in teams of two or three.
 
-**Schedule**
+**Schedule** (subject to change)
 
-October ...
+October 19: Initial project proposal due--one page writeup of project goal, research plan, proposed outcome(s). Your instructors will provide feedback.
 
-November ...
+October 26: Final project proposal due, refined based on feedback.
 
-December ...
+November 16: Mid-quarter project report. 2-3 pages summarizing progress, any problems encountered, and any changes to project direction or scope.
+
+December 3 and 5: Project presentations in class.
+
+December 10: Papers due. 8-10 pages, `ACM Conference Proceedings format (sigconf)` <https://www.acm.org/publications/proceedings-template>_. 
 
 
 **Some Potential Project Ideas**
