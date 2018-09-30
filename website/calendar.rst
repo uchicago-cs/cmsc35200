@@ -89,7 +89,7 @@ Week 5 - TOPIC TBD
 
 **Monday, October 29**
 
-- TBD
+- Guest lecture: TBD.
 
 **Wednesday, October 31**
 
@@ -100,22 +100,22 @@ Week 6 - TOPIC TBD
 
 **Monday, November 5**
 
-- TBD
+- Guest lecture: TBD.
 
 **Wednesday, November 7**
 
-- TBD
+- Guest lecture: TBD.
 
 Week 7 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Monday, November 12**
 
-- TBD
+- Guest lecture: TBD.
 
 **Wednesday, November 14**
 
-- TBD
+- Guest lecture: TBD.
 
 
 Week 8 - TOPIC TBD
