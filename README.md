@@ -4,7 +4,9 @@ Please see https://uchicago-cs.github.io/cmsc35200/
 
 To update web site: edit; make html; make deploy
 
-The following students have enquired about class, and I have told them to come to first lecture.
+-----
+
+The following students have enquired about class, and have told to come to the first lecture.
 
 * Austin Chung <austinchung@uchicago.edu>
 * Jack Huang <jhuang11@uchicago.edu>
@@ -19,6 +21,8 @@ The following students have enquired about class, and I have told them to come t
 * Zixuan Zhao <vapor@uchicago.edu>
 * Zhisheng Xiao <zxiao@uchicago.edu>
 * Lucy Newman <newmanlucy@uchicago.edu> [asks about sitting in]
+
+----
 
 Invited speakers and status:
 
