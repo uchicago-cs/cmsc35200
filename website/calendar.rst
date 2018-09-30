@@ -69,7 +69,7 @@ Week 3 - Performance of Deep Learning Systems
 
 **Wednesday, October 17**: Benchmarking
 
-* Papers to read:*
+Papers to read:
 
 - `DAWNBench: An End-to-End Deep Learning Benchmark and Competition <https://dawn.cs.stanford.edu/benchmark/papers/nips17-dawnbench.pdf>`_, Cody Coleman et al., NIPS 2017. Also `DAWNBench web site <https://dawn.cs.stanford.edu/benchmark/>`_ and `Analysis of DAWNBench, a Time-to-Accuracy Machine Learning Performance Benchmark <https://arxiv.org/pdf/1806.01427.pdf>`_, Cody Coleman et al., Arxiv.
 - `MLPerf <https://mlperf.org>`_
