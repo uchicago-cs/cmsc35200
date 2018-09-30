@@ -8,7 +8,7 @@ Specific topics to be covered:
 * Software architecture and design of frameworks
 * Abstraction layers for deep learning
 * Performance and benchmarking deep learning systems
-* Hardware architectures for accelerating deep learning
+* Hardware architectures for accelerating deep learning. E.g., `Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks <http://cadlab.cs.ucla.edu/~cong/slides/fpga2015_chen.pdf>`_, Chen Zhang et al,
 * Parallelism (model, data, ensemble)
 * Portable representations and translations of models
 * Optimization for training, inference
@@ -18,7 +18,8 @@ Specific topics to be covered:
 
 Other potential topics:
 
-* Compression
+* Compression of networks. E.g., `Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding <https://arxiv.org/pdf/1510.00149.pdf>`_, Song Han et al, ICLR 2016.
+* I/O
 
 Week 1: Motivation and Introduction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -31,7 +32,7 @@ Important things to do:
 
 - Sign up for `Google Collaboratory <https://colab.research.google.com>`_, which we will use to run examples. 
 - Read Chapters 1 and 2 of `Deep Learning with Python <http://www.deeplearningitalia.com/wp-content/uploads/2017/12/Dropbox_Chollet.pdf>`_ by Francois Chollet.
-- Work through the Python code examples in Chapter 2 of Chollet. Those in Section 2.1 are to be found `here <https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/2.1-a-first-look-at-a-neural-network.ipynb>`_. (From within Google Collaboratory, select File then Upload notebook, then Git, and give the URL `https://github.com/fchollet/deep-learning-with-python-notebooks.git <https://github.com/fchollet/deep-learning-with-python-notebooks.git>`_.) Those in subsequent subsections you'll need to type in yourself.
+- Work through the Python code examples in Chapter 2 of Chollet. Those in Section 2.1 are to be found `here <https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/2.1-a-first-look-at-a-neural-network.ipynb>`_. (From within Google Collaboratory, select File then Upload notebook, then Git, and give the URL `https://github.com/fchollet/deep-learning-with-python-notebooks.git <https://github.com/fchollet/deep-learning-with-python-notebooks.git>`_.) Those in subsequent subsections you'll need to copy and paste.
 
 **Wednesday, October 3**: Functional Content of Deep Learning Frameworks
 
