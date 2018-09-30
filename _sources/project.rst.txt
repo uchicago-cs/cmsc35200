@@ -17,7 +17,7 @@ November 16: Mid-quarter project report. 2-3 pages summarizing progress, any pro
 
 December 3 and 5: Project presentations in class.
 
-December 10: Papers due. 8-10 pages, `ACM Conference Proceedings format (sigconf)` <https://www.acm.org/publications/proceedings-template>_. 
+December 10: Papers due. 8-10 pages, `ACM Conference Proceedings format (sigconf) <https://www.acm.org/publications/proceedings-template>`_. 
 
 
 **Some Potential Project Ideas**
