@@ -1,95 +1,119 @@
 Autumn 2018 Calendar and Reading List
 -------------------------------------
 
-Week 1: Motivation
-~~~~~~
+Specific topics to be covered:
 
-**Required reading for Monday, October 1**
+* Introduction to deep learning models
+* Functional content of deep learning frameworks
+* Software architecture and design of frameworks
+* Abstraction layers for deep learning
+* Performance and benchmarking deep learning systems
+* Hardware architectures for accelerating deep learning
+* Parallelism (model, data, ensemble)
+* Portable representations and translations of models
+* Optimization for training, inference
+* Workflows for machine learning and workflow tools
+* Hyper-parameter optimization and ensembles
+* Uncertainty quantification
 
-- `Deep Learning with Python <https://towardsdatascience.com/deep-learning-with-python-703e26853820>`_. Brief tutorial.
-- `Tensorflow: a system for large-scale machine learning <https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf>`_, Abadi, Martín, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin et al. OSDI, vol. 16, pp. 265-283. 2016.
+Other potential topics:
 
-**Required reading for Wednesday, October 3**
+* Compression
 
-- TBD
+Week 1: Motivation and Introduction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Suggested Reading**
+**Monday, October 1**: Introduction to Deep Learning Models
 
+The slides presented in class will soon be here.
+
+Important things to do:
+
+- Sign up for `Google Collaboratory <https://colab.research.google.com>`_, which we will use to run examples. 
+- Read Chapters 1 and 2 of `Deep Learning with Python <http://www.deeplearningitalia.com/wp-content/uploads/2017/12/Dropbox_Chollet.pdf>`_ by Francois Chollet.
+- Work through the Python code examples in Chapter 2 of Chollet. Those in Section 2.1 are to be found `here <https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/2.1-a-first-look-at-a-neural-network.ipynb>`_. (From within Google Collaboratory, select File then Upload notebook, then Git, and give the URL `https://github.com/fchollet/deep-learning-with-python-notebooks.git <https://github.com/fchollet/deep-learning-with-python-notebooks.git>`_.) Those in subsequent subsections you'll need to type in yourself.
+
+**Wednesday, October 3**: Functional Content of Deep Learning Frameworks
+
+- Read `Tensorflow: a system for large-scale machine learning <https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf>`_, Abadi, Martín, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin et al. OSDI, vol. 16, pp. 265-283. 2016.
+
+*Suggested Reading*.
 Note: Some of these readings go into topics that we will cover later in the quarter.
 As such, you may not get that much out of reading these references at the start
 of the quarter. Instead, they can be good reference material to re-read later on
 and see how everything fits together.
 
 - `Deep Learning <https://www.deeplearningbook.org>`_, Ian Goodfellow, Yoshua Bengio, Aaron Courville. MIT Press and online. 
-- `Deep Learning with Python <http://www.deeplearningitalia.com/wp-content/uploads/2017/12/Dropbox_Chollet.pdf>`_, Francois Chollet. Manning Publications, 2017. Introduces DL via Keras and Python. There is an `online forum <https://forums.manning.com/forums/deep-learning-with-python>`_.
 - `Neural Networks and Deep Learning <http://neuralnetworksanddeeplearning.com>`_, Michael Neilsen. A particularly nice presentation of back propagation.
-- `Cloud Computing for Science and Engineering <https://cloud4scieng.org>`_, Ian Foster and Dennis Gannon. Describes how to use deep learning services provided by Amazon, Google, and Microsoft.
+- `Cloud Computing for Science and Engineering <https://cloud4scieng.org>`_, Ian Foster and Dennis Gannon. MIT Press and online. Describes how to use deep learning services provided by Amazon, Google, and Microsoft.
 
 
-Week 2 - TOPIC TBD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 2 - Deep Learning Frameworks
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, October 8**
-
-- TBD
-
-**Required reading for Wednesday, October 10**
+**Monday, October 8**
 
 - TBD
 
-
-Week 3 - TOPIC TBD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Required reading for Monday, October 15**
+**Wednesday, October 10**
 
 - TBD
 
-**Required reading for Wednesday, October 17**
+
+Week 3 - Performance of Deep Learning Systems
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Monday, October 15**: Measuring performance
+
+- TBD
+
+**Wednesday, October 17**: Benchmarking
+
+* Papers to read:*
 
 - TBD
 
 Week 4 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, October 22**
+**Monday, October 22**
 
 - TBD
 
-**Required reading for Wednesday, October 24**
+**Wednesday, October 24**
 
 - TBD 
 
 Week 5 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, October 29**
+**Monday, October 29**
 
 - TBD
 
-**Required reading for Wednesday, October 31**
+**Wednesday, October 31**
 
 - TBD
 
 Week 6 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, November 5**
+**Monday, November 5**
 
 - TBD
 
-**Required reading for Wednesday, November 7**
+**Wednesday, November 7**
 
 - TBD
 
 Week 7 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, November 12**
+**Monday, November 12**
 
 - TBD
 
-**Required reading for Wednesday, November 14**
+**Wednesday, November 14**
 
 - TBD
 
@@ -97,33 +121,33 @@ Week 7 - TOPIC TBD
 Week 8 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, November 19**
+**Monday, November 19**
 
 - TBD
 
-**Required reading for Wednesday, November 21**
+**Wednesday, November 21**
 
 - TBD
 
 Week 9 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, November 26**
+**Monday, November 26**
 
 - TBD
 
-**Required reading for Wednesday, November 28**
+**Wednesday, November 28**
 
 - TBD
 
 
-Week 10 - TOPIC TBD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 10 - Project presentations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Required reading for Monday, December 3**
+**Monday, December 3**
 
-- TBD
+- Project presentations
 
-**Required reading for Wednesday, December 5**
+**Wednesday, December 5**
 
-- TBD
+- Project presentations
