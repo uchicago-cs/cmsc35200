@@ -20,6 +20,7 @@ Other useful links:
 
 * `Arxiv Sanity Preserver <http://www.arxiv-sanity.com>`_
 * `Alena Kruchkova videos <https://www.youtube.com/channel/UCF9O8Vj-FEbRDA5DcDGz-Pg>`_
+* The `sample code and data referred to in class <https://drive.google.com/drive/folders/1-jkm2bUYWOftKm8is6rx3dKP9UIz2hCC?usp=sharing>`_
 
 **Wednesday, October 3**: Functional Content of Deep Learning Frameworks
 
