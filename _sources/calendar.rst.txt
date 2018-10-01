@@ -43,7 +43,10 @@ Week 2 - Deep Learning Frameworks
 
 **Monday, October 8**
 
-- TBD
+- `Keras <https://keras.io>`_ (and the Chollet book referenced above)
+- `TensorFlow <https://www.tensorflow.org>`_
+
+
 
 **Wednesday, October 10**
 
