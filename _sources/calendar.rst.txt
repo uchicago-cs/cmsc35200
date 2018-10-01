@@ -21,6 +21,8 @@ Other potential topics:
 * Compression of networks. E.g., `Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding <https://arxiv.org/pdf/1510.00149.pdf>`_, Song Han et al, ICLR 2016.
 * I/O
 
+----
+
 Week 1: Motivation and Introduction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
