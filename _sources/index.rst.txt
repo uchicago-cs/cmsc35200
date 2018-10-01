@@ -31,5 +31,5 @@ For more details, please see the `syllabus <syllabus.html>`_.
 
    syllabus.rst
    calendar.rst
-
-
+   pa.rst
+   project.rst

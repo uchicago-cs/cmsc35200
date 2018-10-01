@@ -1,4 +1,9 @@
 Programming Assignments
 =======================
 
-Check back soon.
+In this `Google Drive folder <https://drive.google.com/drive/folders/1-jkm2bUYWOftKm8is6rx3dKP9UIz2hCC?usp=sharing>`_ you will find:
+
+* combined_rnaseq_data_lincs1000_combat: A file with 15198 rows, each with 943 tab-separated columns 
+* Connect to Google Drive.ipynb: A notebook that shows how to connect to, and access, your UChicago Google Drive
+
+More soon.
