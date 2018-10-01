@@ -1,0 +1,8 @@
+CMSC 35200 -- Deep Learning Systems
+===================================
+
+Some useful links:
+
+* `Google Colaboratory <https://colab.research.google.com>`_
+* `Arxiv Sanity Preserver <http://www.arxiv-sanity.com>`_
+* Alena Kruchkova videos <https://www.youtube.com/channel/UCF9O8Vj-FEbRDA5DcDGz-Pg>`_
