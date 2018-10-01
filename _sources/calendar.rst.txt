@@ -1,26 +1,6 @@
 Autumn 2018 Calendar and Reading List
 -------------------------------------
 
-Specific topics to be covered:
-
-* Introduction to deep learning models
-* Functional content of deep learning frameworks
-* Software architecture and design of frameworks
-* Abstraction layers for deep learning
-* Performance and benchmarking deep learning systems
-* Hardware architectures for accelerating deep learning. E.g., `Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks <http://cadlab.cs.ucla.edu/~cong/slides/fpga2015_chen.pdf>`_, Chen Zhang et al,
-* Parallelism (model, data, ensemble). E>g., `Large Scale Distributed Deep Networks <http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf>`_, Jeff Dean et al., NIPS 2012.
-* Portable representations and translations of models
-* Optimization for training, inference
-* Workflows for machine learning and workflow tools
-* Hyper-parameter optimization and ensembles
-* Uncertainty quantification
-
-Other potential topics:
-
-* Compression of networks. E.g., `Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding <https://arxiv.org/pdf/1510.00149.pdf>`_, Song Han et al, ICLR 2016.
-* I/O
-
 ----
 
 Week 1: Motivation and Introduction
@@ -178,3 +158,25 @@ Week 10 - Project presentations
 **Wednesday, December 5**
 
 - Project presentations
+
+----
+
+Specific topics to be covered:
+
+* Introduction to deep learning models
+* Functional content of deep learning frameworks
+* Software architecture and design of frameworks
+* Abstraction layers for deep learning
+* Performance and benchmarking deep learning systems
+* Hardware architectures for accelerating deep learning. E.g., `Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks <http://cadlab.cs.ucla.edu/~cong/slides/fpga2015_chen.pdf>`_, Chen Zhang et al,
+* Parallelism (model, data, ensemble). E>g., `Large Scale Distributed Deep Networks <http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf>`_, Jeff Dean et al., NIPS 2012.
+* Portable representations and translations of models
+* Optimization for training, inference
+* Workflows for machine learning and workflow tools
+* Hyper-parameter optimization and ensembles
+* Uncertainty quantification
+
+Other potential topics:
+
+* Compression of networks. E.g., `Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding <https://arxiv.org/pdf/1510.00149.pdf>`_, Song Han et al, ICLR 2016.
+* I/O
