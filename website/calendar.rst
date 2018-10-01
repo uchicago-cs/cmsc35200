@@ -9,7 +9,7 @@ Specific topics to be covered:
 * Abstraction layers for deep learning
 * Performance and benchmarking deep learning systems
 * Hardware architectures for accelerating deep learning. E.g., `Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks <http://cadlab.cs.ucla.edu/~cong/slides/fpga2015_chen.pdf>`_, Chen Zhang et al,
-* Parallelism (model, data, ensemble)
+* Parallelism (model, data, ensemble). E>g., `Large Scale Distributed Deep Networks <http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf>`_, Jeff Dean et al., NIPS 2012.
 * Portable representations and translations of models
 * Optimization for training, inference
 * Workflows for machine learning and workflow tools

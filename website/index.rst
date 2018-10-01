@@ -10,7 +10,7 @@ Course Staff
 
 **Instructors**
 
-`Ian Foster <http://people.cs.uchicago.edu/~foster/>`_ (foster@uchicago.edu) and `Rick Stevens <http://people.cs.uchicago.edu/~foster>`_ (stevens@uchicago.edu)
+`Ian Foster <http://people.cs.uchicago.edu/~foster/>`_ (foster@uchicago.edu) and `Rick Stevens <https://www.cs.uchicago.edu/people/profile/rick-stevens/>`_ (rick.stevens@uchicago.edu)
 
 *Office*: Crerar 301 and 307
 
