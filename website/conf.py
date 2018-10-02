@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# CMSC 35299 - Learning Systems documentation build configuration file, created by Ian Foster
+# CMSC 35200 - Deep Learning Systems documentation build configuration file, created by Ian Foster
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'CMSC 35200 - Learning Systems'
+project = 'CMSC 35200 - Deep Learning Systems'
 copyright = u'2018, The University of Chicago'
 author = 'Ian Foster, Rick Stevens'
 
@@ -116,7 +116,7 @@ html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "CMSC 35200 - Learning Systems",
+    'navbar_title': "CMSC 35200 - Deep Learning Systems",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Site",
@@ -187,7 +187,7 @@ html_theme_options = {
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = "CMSC 35200 - Learning Systems"
+html_title = "CMSC 35200 - Deep Learning Systems"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -289,7 +289,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'CMSC-LearningSystems.tex', 'CMSC 35200 - Learning Systems Documentation',
+  (master_doc, 'CMSC-LearningSystems.tex', 'CMSC 35200 - Deep Learning Systems Documentation',
    'Ian Foster, Rick Stevens', 'manual'),
 ]
 
@@ -319,7 +319,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'cmsc35200-networksanddistributedsystems', 'CMSC 35200 - Learning Systems Documentation',
+    (master_doc, 'cmsc35200-networksanddistributedsystems', 'CMSC 35200 - Deep Learning Systems Documentation',
      [author], 1)
 ]
 
@@ -333,7 +333,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'CMSC35200-LearningSystems', 'CMSC 35200 - Learning Systems Documentation',
+  (master_doc, 'CMSC35200-LearningSystems', 'CMSC 35200 - Deep Learning Systems Documentation',
    author, 'CMSC35200-LearningSystems', 'One line description of project.',
    'Miscellaneous'),
 ]
