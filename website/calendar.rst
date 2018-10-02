@@ -8,7 +8,7 @@ Week 1: Motivation and Introduction
 
 **Monday, October 1**: Introduction to Deep Learning Models
 
-The slides presented in class will soon be here.
+Here are `the slides presented in class today <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture1-Intro-to-Deep-Learning-Part1.pdf>`_ (download).
 
 Important things to do:
 
