@@ -83,12 +83,43 @@
       
   <div class="section" id="programming-assignments">
 <h1>Programming Assignments<a class="headerlink" href="#programming-assignments" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="assignment-1-due-october-12">
+<h2>Assignment 1: Due October 12<a class="headerlink" href="#assignment-1-due-october-12" title="Permalink to this headline">¶</a></h2>
+<p>You are given a dataset, <code class="docutils literal notranslate"><span class="pre">combined_rnaseq_data_lincs1000_combat</span></code>, of expression levels for 942 different genes (columns) in 15197 different cancer samples (rows).
+We want to determine to what extent the data for one gene can be predicted given the values for the 941 others.
+Your task is to use Keras to build such a predictive model.</p>
 <p>In this <a class="reference external" href="https://drive.google.com/drive/folders/1-jkm2bUYWOftKm8is6rx3dKP9UIz2hCC?usp=sharing">Google Drive folder</a> you will find:</p>
 <ul class="simple">
-<li>combined_rnaseq_data_lincs1000_combat: A file with 15198 rows, each with 943 tab-separated columns</li>
-<li>Connect to Google Drive.ipynb: A notebook that shows how to connect to, and access, your UChicago Google Drive</li>
+<li><code class="docutils literal notranslate"><span class="pre">combined_rnaseq_data_lincs1000_combat</span></code>: A file with 15198 rows, each with 943 tab-separated columns: the data</li>
+<li><code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code>: A notebook that shows how to connect to, and access, your UChicago Google Drive, and then define and run a simple Keras model.</li>
 </ul>
-<p>More soon.</p>
+<p>Proceed as follows:</p>
+<ol class="arabic">
+<li><p class="first">Use <a class="reference external" href="https://www.random.org/integers/">Random.Org</a> to generate 3 random numbers in the range 2..941 (inclusive). These 3 numbers plus the numbers [0,1] together identify the 5 genes for which you will construct models.</p>
+</li>
+<li><p class="first">Make sure that you can run the code in <code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code> on Google Colaboratory. Use TensorBoard to study its progress.</p>
+</li>
+<li><p class="first">For each of your 5 genes, experiment with different hyperparameters to find a set that generate a low <code class="docutils literal notranslate"><span class="pre">val_losss</span></code>.</p>
+</li>
+<li><p class="first">Submit a file containing six lines:</p>
+<ol class="loweralpha">
+<li><p class="first">First, the URL for an ASCII text file containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?</p>
+</li>
+<li><p class="first">Then, five lines, one for each of your genes, each with the form</p>
+<p>&lt;<em>gene-number</em>&gt;, &lt;<em>val-loss</em>&gt;, &lt;<em>URL-for-model</em>&gt;, &lt;<em>URL-for-history</em>&gt;</p>
+<p>where:</p>
+<ul class="simple">
+<li>&lt;<em>gene-number</em>&gt; is an integer gene number</li>
+<li>&lt;<em>val-loss</em>&gt; is the best validation loss that you achievedd</li>
+<li>&lt;<em>URL-for-model</em>&gt; allows us to access a Google Drive file containing Python code for the model used to generate the &lt;val-loss&gt;. (You may name one model for all 5 genes, or a different model for each.)</li>
+<li>&lt;<em>URL-for-history</em>&gt; allows us to access a Google Drive file containing the execution trace for the run that achieved the reported val-loss</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<p>We will add an example of the desired output soon.</p>
+</div>
 </div>
 
 
