@@ -55,7 +55,7 @@ Week 2 - Deep Learning Frameworks
 
 **Wednesday, October 10**: Tensorflow
 
-- `The slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture4-Tensorflow.pdf>`_ (download).
+- `The slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture4-TensorFlow.pdf>`_ (download).
 
 - `TensorFlow <https://www.tensorflow.org>`_
 
