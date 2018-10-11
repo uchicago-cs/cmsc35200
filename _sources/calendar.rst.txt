@@ -25,7 +25,7 @@ Other useful links:
 **Wednesday, October 3**: Functional Content of Deep Learning Frameworks
 
 
-- Here are `the slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture2-Intro-to-Deep-Learning-Part2.pdf>`_ (download) and `the slides describing running Keras and material relevant to the first assignment <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture2-RunningKeras.pdf>`_.
+- Here are `the slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture2-Intro-to-Deep-Learning-Part2.pdf>`_ (download) and `the slides describing running Keras and material relevant to the first assignment <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture2-RunningKeras.pdf>`_ (download).
 
 - Read `Tensorflow: a system for large-scale machine learning <https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf>`_, Abadi, Martín, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin et al. OSDI, vol. 16, pp. 265-283. 2016.
 
@@ -47,7 +47,7 @@ Week 2 - Deep Learning Frameworks
 
 **Monday, October 8**: Keras
 
-- `The slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture3-Keras.pdf>`_
+- `The slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture3-Keras.pdf>`_ (download).
 
 - `Keras <https://keras.io>`_ (and the Chollet book referenced above)
 
@@ -55,7 +55,7 @@ Week 2 - Deep Learning Frameworks
 
 **Wednesday, October 10**: Tensorflow
 
-- `The slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture4-Tensorflow.pdf>`_
+- `The slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture4-Tensorflow.pdf>`_ (download).
 
 - `TensorFlow <https://www.tensorflow.org>`_
 
