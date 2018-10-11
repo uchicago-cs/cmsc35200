@@ -8,7 +8,7 @@ Week 1: Motivation and Introduction
 
 **Monday, October 1**: Introduction to Deep Learning Models
 
-Here are `the slides presented in class today <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture1-Intro-to-Deep-Learning-Part1.pdf>`_ (download).
+Here are `the slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture1-Intro-to-Deep-Learning-Part1.pdf>`_ (download).
 
 Important things to do:
 
@@ -23,6 +23,9 @@ Other useful links:
 * The `sample code and data referred to in class <https://drive.google.com/drive/folders/1-jkm2bUYWOftKm8is6rx3dKP9UIz2hCC?usp=sharing>`_
 
 **Wednesday, October 3**: Functional Content of Deep Learning Frameworks
+
+
+- Here are `the slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture2-Intro-to-Deep-Learning-Part2.pdf>`_ (download) and `the slides describing running Keras and material relevant to the first assignment <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture2-RunningKeras.pdf>`_.
 
 - Read `Tensorflow: a system for large-scale machine learning <https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf>`_, Abadi, Martín, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin et al. OSDI, vol. 16, pp. 265-283. 2016.
 
@@ -42,16 +45,19 @@ and see how everything fits together.
 Week 2 - Deep Learning Frameworks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Monday, October 8**
+**Monday, October 8**: Keras
+
+- `The slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture3-Keras.pdf>`_
 
 - `Keras <https://keras.io>`_ (and the Chollet book referenced above)
+
+
+
+**Wednesday, October 10**: Tensorflow
+
+- `The slides presented in class <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture4-Tensorflow.pdf>`_
+
 - `TensorFlow <https://www.tensorflow.org>`_
-
-
-
-**Wednesday, October 10**
-
-- TBD
 
 
 ----
@@ -59,11 +65,14 @@ Week 2 - Deep Learning Frameworks
 Week 3 - Performance of Deep Learning Systems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Monday, October 15**: Measuring performance
-
-- TBD
+**Monday, October 15**: Mapping from Tensorflow to lower-level libraries; profiling
 
 **Wednesday, October 17**: Benchmarking
+
+Parallelism: Data, model, ensembles
+
+
+
 
 Papers to read:
 

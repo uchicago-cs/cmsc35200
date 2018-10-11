@@ -16,7 +16,7 @@ In this `Google Drive folder <https://drive.google.com/drive/folders/1-jkm2bUYWO
 
 Proceed as follows:
 
-1. Use `Random.Org <https://www.random.org/integers/>`_ to generate 3 random numbers in the range 2..941 (inclusive). These 3 numbers plus the numbers [0,1] together identify the 5 genes for which you will construct models.
+1. Use `Random.Org <https://www.random.org/integers/>`_ to generate 3 random numbers in the range 2..941 (inclusive). These 3 numbers plus the numbers [0,1] together identify the 5 genes for which you will construct models. (For example, if you obtain random numbers 56, 452, and 593, then you want to compute on genes [0, 1, 56, 452, 593], i.e., the columns of the same number in the ``data`` array of ``Assignment-1.ipynb``.)
 
 2. Make sure that you can run the code in ``Assignment-1.ipynb`` on Google Colaboratory. Use TensorBoard to study its progress.
 
