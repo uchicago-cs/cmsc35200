@@ -27,8 +27,6 @@ Other useful links:
 
 - Here are `the second set of introductory slides <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture2-Intro-to-Deep-Learning-Part2.pdf>`_ (download) and `the slides describing running Keras and material relevant to the first assignment <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture2-RunningKeras.pdf>`_ (download).
 
-- Read `Tensorflow: a system for large-scale machine learning <https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf>`_, Abadi, Martín, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin et al. OSDI, vol. 16, pp. 265-283. 2016.
-
 *Suggested Reading*.
 Note: Some of these readings go into topics that we will cover later in the quarter.
 As such, you may not get that much out of reading these references at the start
@@ -77,14 +75,16 @@ Papers to read:
 
 ----
 
-Week 4 - TOPIC TBD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 4 - Performance and Parallelism
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Monday, October 22**
+**Monday, October 22**: `TensorFlow Internals and Parallelism <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture7-Parallelism.pdf>`_ (slides download).
 
-- TBD
+- Read `Tensorflow: a system for large-scale machine learning <https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf>`_, Abadi, Martín, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeffrey Dean, Matthieu Devin et al. OSDI, vol. 16, pp. 265-283. 2016.
 
-**Wednesday, October 24**
+- Read `Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis <https://arxiv.org/pdf/1802.09941.pdf>`_, Ben-Nun and Hoefler.
+
+**Wednesday, October 24**: Performance.
 
 - TBD 
 
