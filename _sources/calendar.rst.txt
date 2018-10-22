@@ -45,7 +45,7 @@ Week 2 - Deep Learning Frameworks
 
 **Monday, October 8**: Keras
 
-- `The slides on Keras <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture3-Keras.pdf>`_ (download).
+- `The slides on Keras <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture3-Keras.pdf>`_ (slides download).
 
 - `Keras <https://keras.io>`_ (and the Chollet book referenced above)
 
@@ -53,7 +53,7 @@ Week 2 - Deep Learning Frameworks
 
 **Wednesday, October 10**: Tensorflow
 
-- `The slides on TensorFlow <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture4-TensorFlow.pdf>`_ (download).
+- `The slides on TensorFlow <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture4-TensorFlow.pdf>`_ (slides download).
 
 - `TensorFlow <https://www.tensorflow.org>`_
 
@@ -65,7 +65,7 @@ Week 3 - Back Propagation and Training
 
 **Monday, October 15**: `Activation, Loss, and Back Propagation <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture5-Activation-Loss.pdf>`_ (slides download).
 
-**Wednesday, October 17**: `Training Examples <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture5-TrainingExamples.pdf>`_ and `More Back Propagation <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture6-BackProp.pdf>`_ (slide downloads).
+**Wednesday, October 17**: `Training Examples <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture5-TrainingExamples.pdf>`_ and `More Back Propagation <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture6-BackProp.pdf>`_ (slides downloads).
 
 
 
