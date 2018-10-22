@@ -67,7 +67,7 @@ Week 3 - Back Propagation and Training
 
 **Monday, October 15**: `Activation, Loss, and Back Propagation <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture5-Activation-Loss.pdf>`_ (slides download).
 
-**Wednesday, October 17**: `Training Examples <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture5-TrainingExamples.pdf>`_ and `More Back Propagation <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture5-BackProp.pdf>`_ (slide downloads).
+**Wednesday, October 17**: `Training Examples <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture5-TrainingExamples.pdf>`_ and `More Back Propagation <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture6-BackProp.pdf>`_ (slide downloads).
 
 
 Papers to read:
