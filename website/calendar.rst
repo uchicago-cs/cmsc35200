@@ -82,7 +82,19 @@ Papers to read:
 
 - Read `Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis <https://arxiv.org/pdf/1802.09941.pdf>`_, Ben-Nun and Hoefler.
 
-**Wednesday, October 24**: Performance.
+**Wednesday, October 24**: `Compilation <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture8-Compilation.pdf>`_ (slides download).
+
+
+----
+
+Week 5 - Science and Performance
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Monday, October 29**: Machine Learning and Science, and the Data and Learning Hub
+
+- Guest lecture: Ben Blaiszik, Ryan Chard, and Logan Ward
+
+**Wednesday, October 31**: Measuring and Understanding Performance
 
 Papers to read:
 
@@ -91,29 +103,16 @@ Papers to read:
 
 ----
 
-Week 5 - TOPIC TBD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 6 - From Edge to Supercomputers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Monday, October 29**
+**Monday, November 5**: Urban Sensing and Edge Computing
 
-- Guest lecture: TBD.
+- Guest lecture: Charlie Catlett and Nicola Ferrier
 
-**Wednesday, October 31**
+**Wednesday, November 7**: Deep Learning on Supercomputers
 
-- TBD
-
-----
-
-Week 6 - TOPIC TBD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Monday, November 5**
-
-- Guest lecture: TBD.
-
-**Wednesday, November 7**
-
-- Guest lecture: TBD.
+- Guest lecture: Venkat Vishwanath
 
 ----
 
