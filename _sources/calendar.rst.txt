@@ -146,11 +146,11 @@ Week 8 - TOPIC TBD
 Week 9 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Monday, November 26**
+**Monday, November 26**: Zhao Zhang, TACC
 
 - TBD
 
-**Wednesday, November 28**
+**Wednesday, November 28**: Nicholas Malaya, AMD
 
 - TBD
 
