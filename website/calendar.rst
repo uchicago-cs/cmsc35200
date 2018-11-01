@@ -90,11 +90,11 @@ Papers to read:
 Week 5 - Science and Performance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Monday, October 29**: Machine Learning and Science, and the Data and Learning Hub
+**Monday, October 29**: `Machine Learning and Science, and the Data and Learning Hub <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture9-Materials.pdf>`_ (slides download).
 
 - Guest lecture: Ben Blaiszik, Ryan Chard, and Logan Ward
 
-**Wednesday, October 31**: Measuring and Understanding Performance
+**Wednesday, October 31**: 1Measuring and Understanding Performance <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture10-Performance.pdf>`_ (slides download).
 
 Papers to read:
 
