@@ -94,7 +94,7 @@ Week 5 - Science and Performance
 
 - Guest lecture: Ben Blaiszik, Ryan Chard, and Logan Ward
 
-**Wednesday, October 31**: 1Measuring and Understanding Performance <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture10-Performance.pdf>`_ (slides download).
+**Wednesday, October 31**: `Measuring and Understanding Performance <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture10-Performance.pdf>`_ (slides download).
 
 Papers to read:
 
@@ -106,9 +106,9 @@ Papers to read:
 Week 6 - From Edge to Supercomputers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Monday, November 5**: Urban Sensing and Edge Computing
+**Monday, November 5**: `Urban Sensing and Edge Computing <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/CeC-UChicago-5Nov2018-ilovepdf-compressed.pdf>`_ (slides download).
 
-- Guest lecture: Charlie Catlett and Nicola Ferrier
+- Guest lecture: Charlie Catlett 
 
 **Wednesday, November 7**: Deep Learning on Supercomputers
 
@@ -119,13 +119,11 @@ Week 6 - From Edge to Supercomputers
 Week 7 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Monday, November 12**
 
-- Guest lecture: TBD.
+**Monday, November 12**: `Silicon trends <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture14-Silicon-Trends-DL-compressed.pdf>`_ (slides download).
 
-**Wednesday, November 14**
+**Wednesday, November 14**: `AutoML <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture15-AutoML-compressed.pdf>` (slides download).
 
-- Guest lecture: TBD.
 
 
 ----
