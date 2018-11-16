@@ -108,17 +108,12 @@ Week 6 - From Edge to Supercomputers
 
 **Monday, November 5**: `Urban Sensing and Edge Computing <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/CeC-UChicago-5Nov2018-ilovepdf-compressed.pdf>`_ (slides download).
 
-- Guest lecture: Charlie Catlett 
-
-**Wednesday, November 7**: Deep Learning on Supercomputers
-
-- Guest lecture: Venkat Vishwanath
+**Wednesday, November 7**: `Deep Learning at Scale (Venkat Vishwanath) <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/VIshwanath_UCHICAGO_LearningCLASS.pdf>`_ (slides download).
 
 ----
 
 Week 7 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 
 **Monday, November 12**: `Silicon trends <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture14-Silicon-Trends-DL-compressed.pdf>`_ (slides download).
 
