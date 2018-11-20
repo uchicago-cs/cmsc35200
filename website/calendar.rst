@@ -106,29 +106,27 @@ Papers to read:
 Week 6 - From Edge to Supercomputers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Monday, November 5**: `Urban Sensing and Edge Computing <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/CeC-UChicago-5Nov2018-ilovepdf-compressed.pdf>`_ (slides download).
+**Monday, November 5**: `Urban Sensing and Edge Computing (Charlie Catlett) <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/CeC-UChicago-5Nov2018-ilovepdf-compressed.pdf>`_ (slides download).
 
 **Wednesday, November 7**: `Deep Learning at Scale (Venkat Vishwanath) <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/VIshwanath_UCHICAGO_LearningCLASS.pdf>`_ (slides download).
 
 ----
 
-Week 7 - TOPIC TBD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 7 - Silicon Trends and AutoML
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Monday, November 12**: `Silicon trends <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture14-Silicon-Trends-DL-compressed.pdf>`_ (slides download).
 
-**Wednesday, November 14**: `AutoML <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture15-AutoML-compressed.pdf>` (slides download).
+**Wednesday, November 14**: `AutoML <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture15-AutoML-compressed.pdf>`_ (slides download).
 
 
 
 ----
 
-Week 8 - TOPIC TBD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 8 - Parallelism
+~~~~~~~~~~~~~~~~~~~~
 
-**Monday, November 19**
-
-- TBD
+**Monday, November 19**: `Parallelism <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture16-Parallelism.pdf>`_ (slides download).
 
 **Wednesday, November 21**
 
