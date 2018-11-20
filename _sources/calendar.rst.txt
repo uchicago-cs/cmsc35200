@@ -126,7 +126,7 @@ Week 7 - Silicon Trends and AutoML
 Week 8 - Parallelism
 ~~~~~~~~~~~~~~~~~~~~
 
-**Monday, November 19**: Parallelism
+**Monday, November 19**: `Parallelism <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture16-Parallelism.pdf>`_ (slides download).
 
 **Wednesday, November 21**
 
