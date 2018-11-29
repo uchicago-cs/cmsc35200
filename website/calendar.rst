@@ -137,13 +137,9 @@ Week 8 - Parallelism
 Week 9 - TOPIC TBD
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Monday, November 26**: Zhao Zhang, TACC
+**Monday, November 26**: `Zhao Zhang, TACC <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture17-Zhang.pdf>`_ (slides download).
 
-- TBD
-
-**Wednesday, November 28**: Nicholas Malaya, AMD
-
-- TBD
+**Wednesday, November 28**: `Nicholas Malaya, AMD <https://github.com/uchicago-cs/cmsc35200/raw/master/resources/Lecture18-Malaya.pdf>`_ (slides download).
 
 
 ----
