@@ -2,7 +2,7 @@ Programming Assignments
 =======================
 
 
-Assignment 1: Due October 12
+Assignment 1: Due October 10
 ----------------------------
 
 You are given a dataset, ``combined_rnaseq_data_lincs1000_combat``, of expression levels for 942 different genes (columns) in 15197 different cancer samples (rows). 
