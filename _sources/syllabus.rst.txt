@@ -11,7 +11,7 @@ Course organization
 
 This course is divided into three components:
 
-* **Lectures**: The Monday and Wednesday lectures will present technical material on deep learning systems.
+* **Lectures**: The Tuesday and Thursday lectures will present technical material on deep learning systems.
 * **Programming Assignments**: Four short programming assignments will be given throughout the quarter.
 * **Project and Paper**: Students have to define and complete a project that covers some aspect of deep learning systems. Based on their projects, students have to write a final paper evaluating the features and performance of their project. See `Project and Paper <project.html>`_ for more information.
 
