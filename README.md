@@ -1,4 +1,4 @@
-# CMSC 35200 -- Deep Learning Systems -- Fall 2018
+# CMSC 35200 -- Deep Learning Systems -- Fall 2020
 
 Please see https://uchicago-cs.github.io/cmsc35200/
 
