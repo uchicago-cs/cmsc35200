@@ -2,7 +2,7 @@ Programming Assignments
 =======================
 
 
-Assignment 1: Due October 8
+Assignment 1: Due October 6
 ----------------------------
 
 The goal of this first assignment is to get familiar with Google Colab and with mechanisms for evaluating the performance of neural networks.
