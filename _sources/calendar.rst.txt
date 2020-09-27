@@ -11,9 +11,12 @@ Week 1: Motivation and Introduction
 Important things to do:
 
 - Sign up for `Google Collaboratory <https://colab.research.google.com>`_, which we will use to run examples. 
+- Watch `this video <https://www.youtube.com/watch?v=inN8seMm7UI>`_ and `this video <https://www.youtube.com/watch?v=PitcORQSjNM>`_ on Google Colab.
 
 **Thursday, October 1**: Introduction to deep learning
 
+Before class, watch: 
+- The four videos on deep learning concepts `here <https://www.youtube.com/playlist?list=PLLMP7TazTxHrgVk7w1EKpLBIDoC50QrPS>`_.
 
 
 ----
