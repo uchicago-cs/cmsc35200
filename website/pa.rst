@@ -2,7 +2,21 @@ Programming Assignments
 =======================
 
 
-Assignment 1: Due October 12
+Assignment 1: Due October 6
+----------------------------
+
+The goal of this first assignment is to get familiar with Google Colab and with mechanisms for evaluating the performance of neural networks.
+We will work with this example code in `this Colab notebook <https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb>`_. You should:
+
+* Verify that you can run the notebook on Google Colab
+* Perform runs with GPU, TPU, and CPU
+* Measure and report performance in each case, in terms of execution time and accuracy achieved
+* Repeat this process for different networks: e.g., add 1 or two other dense layer
+
+
+
+
+Assignment 1: Due October 13
 ----------------------------
 
 You are given a dataset, ``combined_rnaseq_data_lincs1000_combat``, of expression levels for 942 different genes (columns) in 15197 different cancer samples (rows). 
