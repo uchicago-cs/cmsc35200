@@ -6,7 +6,7 @@ Assignment 1: Due October 6
 ----------------------------
 
 The goal of this first assignment is to get familiar with Google Colab and with mechanisms for evaluating the performance of neural networks.
-We will with this example code in `this Colab notebook <https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb>`_. You should:
+We will work with this example code in `this Colab notebook <https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb>`_. You should:
 
 * Verify that you can run the notebook on Google Colab
 * Perform runs with GPU, TPU, and CPU
@@ -16,7 +16,7 @@ We will with this example code in `this Colab notebook <https://colab.research.g
 
 
 
-Assignment 1: Due October 10
+Assignment 1: Due October 13
 ----------------------------
 
 You are given a dataset, ``combined_rnaseq_data_lincs1000_combat``, of expression levels for 942 different genes (columns) in 15197 different cancer samples (rows). 
