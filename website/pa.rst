@@ -31,16 +31,16 @@ Proceed as follows:
 
 3. For each of your 5 genes, experiment with different hyperparameters to find a set that generate a low ``val_loss``. (E.g., you can change the number and size of layers, use different activation functions, use a different optimizer.)
 
-4. Please submit via Gradescope:
-    a. PDF file containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?
-    b. A text file with 5 lines, one for each of your genes, each with the form:
-        <*gene-number*>, <*val-loss*>, <*URL-for-model*>, <*URL-for-history*>
-
+4. submit the assignment via Gradescope. Check in a Colab notebook containing:
+    - a markdown block containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?
+    - code blocks for 5 models, each headed with a markdown cells:
+        <*gene-number*>, <*val-loss*>
+    
         where:
             - <*gene-number*> is an integer gene number
             - <*val-loss*> is the best validation loss that you achieved
-            - <*URL-for-model*> allows us to access a Google Drive file containing Python code for the model used to generate the <val-loss>. (You may name one model for all 5 genes, or a different model for each.)
-            - <*URL-for-history*> allows us to access a Google Drive file containing the execution trace for the run that achieved the reported val-loss
+
+        You may name one model for all 5 genes, or a different model for each. Training history should present to allow us to verify the reported val-loss
 
 
 Assignment 2: Due October 22
