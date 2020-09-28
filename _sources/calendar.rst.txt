@@ -8,12 +8,26 @@ Week 1: Motivation and Introduction
 
 **Tuesday, September 29**: Introduction to the class
 
-Important things to do:
+Topics:
+
+- Class goals and structure
+- Readings, videos, and discussion sessions
+- Assignments
+- Project and paper
+
+Things to do:
 
 - Sign up for `Google Collaboratory <https://colab.research.google.com>`_, which we will use to run examples. 
 - Watch `this video <https://www.youtube.com/watch?v=inN8seMm7UI>`_ and `this video <https://www.youtube.com/watch?v=PitcORQSjNM>`_ on Google Colab.
 
 **Thursday, October 1**: Introduction to deep learning
+
+Topics:
+
+- Deep neural networks (DNNs)
+- Gradient descent: how neural networks learn
+- Back propagation
+- Computational considerations: What DNNs mean for computers
 
 Before class, watch: 
 - The four videos on deep learning concepts `here <https://www.youtube.com/playlist?list=PLLMP7TazTxHrgVk7w1EKpLBIDoC50QrPS>`_.
@@ -24,7 +38,12 @@ Before class, watch:
 Week 2 - Deep Learning Frameworks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Tuesday, October 6**: TBD
+**Tuesday, October 6**: Keras
+
+Topics:
+
+- 
+
 
 
 **Thursday, October 8**: TBD

@@ -16,7 +16,7 @@ We will work with this example code in `this Colab notebook <https://colab.resea
 
 
 
-Assignment 1: Due October 13
+Assignment 2: Due October 13
 ----------------------------
 
 You are given a dataset, ``combined_rnaseq_data_lincs1000_combat``, of expression levels for 942 different genes (columns) in 15197 different cancer samples (rows). 
