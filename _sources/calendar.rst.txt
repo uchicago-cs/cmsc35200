@@ -30,6 +30,7 @@ Topics:
 - Computational considerations: What DNNs mean for computers
 
 Before class, watch: 
+
 - The four videos on deep learning concepts `here <https://www.youtube.com/playlist?list=PLLMP7TazTxHrgVk7w1EKpLBIDoC50QrPS>`_.
 
 
