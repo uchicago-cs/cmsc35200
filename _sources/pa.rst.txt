@@ -37,10 +37,10 @@ Proceed as follows:
         <*gene-number*>, <*val-loss*>, <*URL-for-model*>, <*URL-for-history*>
 
         where:
-            <*gene-number*> is an integer gene number
-            <*val-loss*> is the best validation loss that you achieved
-            <*URL-for-model*> allows us to access a Google Drive file containing Python code for the model used to generate the <val-loss>. (You may name one model for all 5 genes, or a different model for each.)
-            <*URL-for-history*> allows us to access a Google Drive file containing the execution trace for the run that achieved the reported val-loss
+            - <*gene-number*> is an integer gene number
+            - <*val-loss*> is the best validation loss that you achieved
+            - <*URL-for-model*> allows us to access a Google Drive file containing Python code for the model used to generate the <val-loss>. (You may name one model for all 5 genes, or a different model for each.)
+            - <*URL-for-history*> allows us to access a Google Drive file containing the execution trace for the run that achieved the reported val-loss
 
 
 Assignment 2: Due October 22
