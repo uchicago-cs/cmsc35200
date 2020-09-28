@@ -65,8 +65,8 @@ Finally, if you have any questions regarding what would or would not be
 considered academic dishonesty in this course, please don’t hesitate to
 ask the instructor.
 
-Asking questions
-~~~~~~~~~~~~~~~~
+Asking questions on Piazza
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The preferred form of support for this course is through *Piazza*
 (http://www.piazza.com/), an on-line discussion service which can be
@@ -101,3 +101,7 @@ Notifications" under CMSC 35200. We encourage you to select either the
 or the "Smart Digest" option (get a summary of all the posts sent over
 the last 1-6 hours – you can select the frequency).
 
+The class Slack channel
+~~~~~~~~~~~~~~~~~~~~~~~
+
+We have also set up a Slack channel on the UChicago Slack. This is for informal discussions that are easier to handle there than on Piazza. We won't use Slack for class announcements.
