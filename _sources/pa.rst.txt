@@ -57,6 +57,7 @@ hardware architectures
 * Measure the performance of training *and* inference of the models (for two different models (e.g., vgg vs. resnet) and two different frameworks (e.g. TF vs Pytorch) on CPU, GPU and TPU or something else (e.g., your laptop; goal is to compare two different platforms to CPUs for a total of three platforms)
 * Write up: Explain and account for the performance differences in terms of architecture elements, software stack, framework implementation strategy, and model structure
 * Submit the assignment via Gradescope. Check in a Colab notebook file containing:
-  - a markdown blocm documenting the studies that you performed and noting lessons learned
-  - a markdown block documenting the required performance measurements on your chosen platfoms
-  - code blocks including the models used to obtain those results, with execution traces
+    - a markdown blocm documenting the studies that you performed and noting lessons learned
+    - a markdown block documenting the required performance measurements on your chosen platfoms
+    - code blocks including the models used to obtain those results, with execution traces
+
