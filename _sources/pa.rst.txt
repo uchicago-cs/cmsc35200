@@ -36,8 +36,8 @@ Proceed as follows:
     b. ASCII text file containing URL to your Colab notebook containing 5 models, each headed with a markdown cells:
         <*gene-number*>, <*val-loss*>
         where:
-            - <*gene-number*> is an integer gene number
-            - <*val-loss*> is the best validation loss that you achieved
+        - <*gene-number*> is an integer gene number
+        - <*val-loss*> is the best validation loss that you achieved
 
         You may name one model for all 5 genes, or a different model for each. Training history should present to allow us to verify the reported val-loss
 
