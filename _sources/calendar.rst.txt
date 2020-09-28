@@ -19,7 +19,7 @@ Topics:
 Things to do:
 
 - Sign up for `Google Collaboratory <https://colab.research.google.com>`_, which we will use to run examples. 
-- Watch `this video <https://www.youtube.com/watch?v=inN8seMm7UI>`_ and `this video <https://www.youtube.com/watch?v=PitcORQSjNM>`_ on Google Colab.
+- Watch `this video <https://www.youtube.com/watch?v=inN8seMm7UI>`_ and `this second video <https://www.youtube.com/watch?v=PitcORQSjNM>`_ on Google Colab.
 
 **Thursday, October 1**: Introduction to deep learning
 
@@ -113,6 +113,7 @@ Week 8 - TBD
 Week 9 - No Class
 ~~~~~~~~~~~~~~~~~
 
+Thanksgiving week
 
 ----
 
@@ -127,4 +128,3 @@ Week 10 - Project presentations
 
 - Project presentations
 
-----
