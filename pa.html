@@ -105,27 +105,23 @@ Your task is to use Keras to build such a predictive model.</p>
 <li><p>Make sure that you can run the code in <code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code> on Google Colaboratory. Use TensorBoard to study its progress.</p></li>
 <li><p>For each of your 5 genes, experiment with different hyperparameters to find a set that generate a low <code class="docutils literal notranslate"><span class="pre">val_loss</span></code>. (E.g., you can change the number and size of layers, use different activation functions, use a different optimizer.)</p></li>
 </ol>
-<p>4 Submit the assignment via Gradescope. Check in a Colab notebook file containing:</p>
-<blockquote>
-<div><ul>
+<dl class="simple">
+<dt>4 Submit the assignment via Gradescope. Check in a Colab notebook file containing:</dt><dd><ul class="simple">
 <li><p>A first markdown block containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?</p></li>
-<li><p>A code block with the form:</p>
-<p>results = (&lt;yourname&gt;, &lt;list-of-results&gt;)</p>
-<p>where &lt;yourname&gt; is your name as a string, and &lt;list-of-results&gt; is a list of five (&lt;<em>gene-number</em>&gt;, &lt;<em>val-loss</em>&gt;) pairs, where</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>&lt;<em>gene-number</em>&gt; is the integer gene number</p></li>
-<li><p>&lt;<em>val-loss</em>&gt; is the best validation loss that you achieved</p></li>
-</ul>
-</div></blockquote>
+<li><dl class="simple">
+<dt>A code block with the form:</dt><dd><p>results = (&lt;yourname&gt;, &lt;list-of-results&gt;)
+where &lt;yourname&gt; is your name as a string, and &lt;list-of-results&gt; is a list of five (&lt;<em>gene-number</em>&gt;, &lt;<em>val-loss</em>&gt;) pairs, where
+-  &lt;<em>gene-number</em>&gt; is the integer gene number
+-  &lt;<em>val-loss</em>&gt; is the best validation loss that you achieved
+For example, results = (“ian”, [(14, 0.5), (456, 0.45)])</p>
+</dd>
+</dl>
 </li>
-</ul>
-<p>For example, results = (“ian”, [(14, 0.5), (456, 0.45)])</p>
-<ul class="simple">
 <li><p>The (runable) model(s) used to generate the &lt;val-loss&gt; values. (You may provide one model for all 5 genes, or a different model for each.)</p></li>
 <li><p>For each gene, an execution trace for the run that achieved the reported val-loss</p></li>
 </ul>
-</div></blockquote>
+</dd>
+</dl>
 </div>
 <div class="section" id="assignment-2-due-october-22">
 <h2>Assignment 2: Due October 22<a class="headerlink" href="#assignment-2-due-october-22" title="Permalink to this headline">¶</a></h2>
