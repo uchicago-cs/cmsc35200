@@ -3,16 +3,25 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Programming Assignments &#8212; CMSC 35200 - Deep Learning Systems</title>
 
     <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="CMSC 35200 Project and Paper" href="project.html" />
@@ -26,7 +35,8 @@
 <script type="text/javascript" src="_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
 <script type="text/javascript" src="_static/bootstrap-sphinx.js "></script>
 
-  </head><body>
+  </head>
+  <body>
 
 
   <div id="navbar" class="navbar navbar-default navbar-fixed-top">
@@ -83,42 +93,43 @@
   <div class="section" id="programming-assignments">
 <h1>Programming Assignments<a class="headerlink" href="#programming-assignments" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
-<li><p>Assignment 1: Due October 8</p></li>
-<li><p>Assignment 2: Due October 22</p></li>
-<li><p>Assignment 3: TBD</p></li>
-<li><p>Assignment 4: TBD</p></li>
+<li>Assignment 1: Due October 8</li>
+<li>Assignment 2: Due October 22</li>
+<li>Assignment 3: TBD</li>
+<li>Assignment 4: TBD</li>
 </ul>
 <p>Please submit the assignments via <a class="reference external" href="https://www.gradescope.com">Gradescope</a>. You should have already received an email from Gradescope on CMSC35200 enrollment.</p>
 <div class="section" id="assignment-1-due-october-8">
 <h2>Assignment 1: Due October 8<a class="headerlink" href="#assignment-1-due-october-8" title="Permalink to this headline">¶</a></h2>
 <p>Goal: Gain familiarity with Google Colab, Keras, and the impact of hyperparameters on model performance</p>
-<p>You are given a dataset, <code class="docutils literal notranslate"><span class="pre">combined_rnaseq_data_lincs1000_combat</span></code>, of expression levels for 942 different genes (columns) in 15197 different cancer samples (rows).
+<p>You are given a dataset, <code class="docutils literal"><span class="pre">combined_rnaseq_data_lincs1000_combat</span></code>, of expression levels for 942 different genes (columns) in 15197 different cancer samples (rows).
 We want to determine to what extent the data for one gene can be predicted given the values for the 941 others.
 Your task is to use Keras to build such a predictive model.</p>
 <p>In this <a class="reference external" href="https://drive.google.com/drive/folders/1-jkm2bUYWOftKm8is6rx3dKP9UIz2hCC?usp=sharing">Google Drive folder</a> you will find:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">combined_rnaseq_data_lincs1000_combat</span></code>: A file with 15198 rows, each with 943 tab-separated columns: the data</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code>: A notebook that shows how to connect to, and access, your UChicago Google Drive, and then define and run a simple Keras model.</p></li>
+<li><code class="docutils literal"><span class="pre">combined_rnaseq_data_lincs1000_combat</span></code>: A file with 15198 rows, each with 943 tab-separated columns: the data</li>
+<li><code class="docutils literal"><span class="pre">Assignment-1.ipynb</span></code>: A notebook that shows how to connect to, and access, your UChicago Google Drive, and then define and run a simple Keras model.</li>
 </ul>
 <p>Proceed as follows:</p>
 <ol class="arabic">
-<li><p>Use <a class="reference external" href="https://www.random.org/integers/">Random.Org</a> to generate 3 random numbers in the range 2..941 (inclusive). These 3 numbers plus the numbers [0,1] together identify the 5 genes for which you will construct models. (For example, if you obtain random numbers 56, 452, and 593, then you want to compute on genes [0, 1, 56, 452, 593], i.e., the columns of the same number in the <code class="docutils literal notranslate"><span class="pre">data</span></code> array of <code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code>.)</p></li>
-<li><p>Make sure that you can run the code in <code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code> on Google Colaboratory. Use TensorBoard to study its progress.</p></li>
-<li><p>For each of your 5 genes, experiment with different hyperparameters to find a set that generate a low <code class="docutils literal notranslate"><span class="pre">val_loss</span></code>. (E.g., you can change the number and size of layers, use different activation functions, use a different optimizer.)</p></li>
-<li><dl>
-<dt>Please submit via Gradescope:</dt><dd><ol class="loweralpha">
-<li><p>PDF file containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?</p></li>
-<li><dl>
-<dt>A text file with 5 lines, one for each of your genes, each with the form:</dt><dd><p>&lt;<em>gene-number</em>&gt;, &lt;<em>val-loss</em>&gt;, &lt;<em>URL-for-model</em>&gt;, &lt;<em>URL-for-history</em>&gt;</p>
-<dl class="simple">
-<dt>where:</dt><dd><ul class="simple">
-<li><p>&lt;<em>gene-number</em>&gt; is an integer gene number</p></li>
-<li><p>&lt;<em>val-loss</em>&gt; is the best validation loss that you achieved</p></li>
-<li><p>&lt;<em>URL-for-model</em>&gt; allows us to access a Google Drive file containing Python code for the model used to generate the &lt;val-loss&gt;. (You may name one model for all 5 genes, or a different model for each.)</p></li>
-<li><p>&lt;<em>URL-for-history</em>&gt; allows us to access a Google Drive file containing the execution trace for the run that achieved the reported val-loss</p></li>
-</ul>
-</dd>
-</dl>
+<li><p class="first">Use <a class="reference external" href="https://www.random.org/integers/">Random.Org</a> to generate 3 random numbers in the range 2..941 (inclusive). These 3 numbers plus the numbers [0,1] together identify the 5 genes for which you will construct models. (For example, if you obtain random numbers 56, 452, and 593, then you want to compute on genes [0, 1, 56, 452, 593], i.e., the columns of the same number in the <code class="docutils literal"><span class="pre">data</span></code> array of <code class="docutils literal"><span class="pre">Assignment-1.ipynb</span></code>.)</p>
+</li>
+<li><p class="first">Make sure that you can run the code in <code class="docutils literal"><span class="pre">Assignment-1.ipynb</span></code> on Google Colaboratory. Use TensorBoard to study its progress.</p>
+</li>
+<li><p class="first">For each of your 5 genes, experiment with different hyperparameters to find a set that generate a low <code class="docutils literal"><span class="pre">val_loss</span></code>. (E.g., you can change the number and size of layers, use different activation functions, use a different optimizer.)</p>
+</li>
+<li><dl class="first docutils">
+<dt>Please submit via Gradescope:</dt>
+<dd><ol class="first last loweralpha">
+<li><p class="first">PDF file containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?</p>
+</li>
+<li><dl class="first docutils">
+<dt>Jupyter notebook containing 5 models, each headed with a markdown cells:</dt>
+<dd><p class="first">&lt;<em>gene-number</em>&gt;, &lt;<em>val-loss</em>&gt;</p>
+<p>where:
+- &lt;<em>gene-number</em>&gt; is an integer gene number
+- &lt;<em>val-loss</em>&gt; is the best validation loss that you achieved</p>
+<p class="last">You may name one model for all 5 genes, or a different model for each. Training history should present to allow us to verify the reported val-loss</p>
 </dd>
 </dl>
 </li>
@@ -133,17 +144,18 @@ Your task is to use Keras to build such a predictive model.</p>
 <p>Goal: Gain experience evaluating the performance of models, frameworks and
 hardware architectures</p>
 <ul class="simple">
-<li><p>Pick two frameworks (e.g., TensorFlow, Pytorch , Mxnet, PlaidML , CNTK, Keras/X, Keras/Y)</p></li>
-<li><p>Pick two different models (e.g., VGG, ResNet, MobileNet) for which pretrained version of ImageNet are available</p></li>
-<li><p>Build a custom version of the <a class="reference external" href="https://www.kaggle.com/c/dogs-vs-cats">Kaggle cats-and-dogs classification problem</a> (which re-trains known image models) on some classification task of your choice.</p></li>
-<li><p>You have to choose some image topics to gather for classification using the retuned model(s)</p></li>
-<li><p>Measure the performance of training <em>and</em> inference of the models (for two different models (e.g., vgg vs. resnet) and two different frameworks (e.g., TF vs. Pytorch) on CPU, GPU and TPU or something else (e.g., your laptop; goal is to compare two different platforms to CPUs for a total of three platforms)</p></li>
-<li><p>Write up: Explain and account for the performance differences in terms of architecture elements, software stack, framework implementation strategy, and model structure</p></li>
-<li><dl class="simple">
-<dt>Submit the assignment via Gradescope. Check in a Colab notebook file containing:</dt><dd><ul>
-<li><p>a markdown block documenting the studies that you performed and noting lessons learned</p></li>
-<li><p>a markdown block documenting the required performance measurements on your chosen platfoms</p></li>
-<li><p>code blocks including the models used to obtain those results, with execution traces</p></li>
+<li>Pick two frameworks (e.g., TensorFlow, Pytorch , Mxnet, PlaidML , CNTK, Keras/X, Keras/Y)</li>
+<li>Pick two different models (e.g., VGG, ResNet, MobileNet) for which pretrained version of ImageNet are available</li>
+<li>Build a custom version of the <a class="reference external" href="https://www.kaggle.com/c/dogs-vs-cats">Kaggle cats-and-dogs classification problem</a> (which re-trains known image models) on some classification task of your choice.</li>
+<li>You have to choose some image topics to gather for classification using the retuned model(s)</li>
+<li>Measure the performance of training <em>and</em> inference of the models (for two different models (e.g., vgg vs. resnet) and two different frameworks (e.g., TF vs. Pytorch) on CPU, GPU and TPU or something else (e.g., your laptop; goal is to compare two different platforms to CPUs for a total of three platforms)</li>
+<li>Write up: Explain and account for the performance differences in terms of architecture elements, software stack, framework implementation strategy, and model structure</li>
+<li><dl class="first docutils">
+<dt>Submit the assignment via Gradescope. Check in a Colab notebook file containing:</dt>
+<dd><ul class="first last">
+<li>a markdown block documenting the studies that you performed and noting lessons learned</li>
+<li>a markdown block documenting the required performance measurements on your chosen platfoms</li>
+<li>code blocks including the models used to obtain those results, with execution traces</li>
 </ul>
 </dd>
 </dl>
@@ -165,7 +177,7 @@ hardware architectures</p>
     </p>
     <p>
         &copy; Copyright 2018, The University of Chicago.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.4.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.7.<br/>
     </p>
   </div>
 </footer>
