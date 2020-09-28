@@ -104,8 +104,9 @@ Your task is to use Keras to build such a predictive model.</p>
 <li><p>Use <a class="reference external" href="https://www.random.org/integers/">Random.Org</a> to generate 3 random numbers in the range 2..941 (inclusive). These 3 numbers plus the numbers [0,1] together identify the 5 genes for which you will construct models. (For example, if you obtain random numbers 56, 452, and 593, then you want to compute on genes [0, 1, 56, 452, 593], i.e., the columns of the same number in the <code class="docutils literal notranslate"><span class="pre">data</span></code> array of <code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code>.)</p></li>
 <li><p>Make sure that you can run the code in <code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code> on Google Colaboratory. Use TensorBoard to study its progress.</p></li>
 <li><p>For each of your 5 genes, experiment with different hyperparameters to find a set that generate a low <code class="docutils literal notranslate"><span class="pre">val_loss</span></code>. (E.g., you can change the number and size of layers, use different activation functions, use a different optimizer.)</p></li>
-<li><dl>
-<dt>Submit the assignment via Gradescope. Check in a Colab notebook file containing:</dt><dd><ul>
+<li><p>Submit the assignment via Gradescope. Check in a Colab notebook file containing:</p>
+<blockquote>
+<div><ul>
 <li><p>A first markdown block containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?</p></li>
 <li><dl>
 <dt>A code block with the form:</dt><dd><p>results = (&lt;yourname&gt;, &lt;list-of-results&gt;)</p>
@@ -121,8 +122,7 @@ Your task is to use Keras to build such a predictive model.</p>
 <li><p>The (runable) model(s) used to generate the &lt;val-loss&gt; values. (You may provide one model for all 5 genes, or a different model for each.)</p></li>
 <li><p>For each gene, an execution trace for the run that achieved the reported val-loss</p></li>
 </ul>
-</dd>
-</dl>
+</div></blockquote>
 </li>
 </ol>
 </div>
