@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Autumn 2020 Calendar and Reading List
 -------------------------------------
 
