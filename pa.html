@@ -84,7 +84,7 @@
 <h1>Programming Assignments<a class="headerlink" href="#programming-assignments" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
 <li><p>Assignment 1: Due October 8</p></li>
-<li><p>Assignment 2: Due October 15</p></li>
+<li><p>Assignment 2: Due October 22</p></li>
 <li><p>Assignment 3: TBD</p></li>
 <li><p>Assignment 4: TBD</p></li>
 </ul>
@@ -100,29 +100,35 @@ Your task is to use Keras to build such a predictive model.</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code>: A notebook that shows how to connect to, and access, your UChicago Google Drive, and then define and run a simple Keras model.</p></li>
 </ul>
 <p>Proceed as follows:</p>
-<ol class="arabic">
+<ol class="arabic simple">
 <li><p>Use <a class="reference external" href="https://www.random.org/integers/">Random.Org</a> to generate 3 random numbers in the range 2..941 (inclusive). These 3 numbers plus the numbers [0,1] together identify the 5 genes for which you will construct models. (For example, if you obtain random numbers 56, 452, and 593, then you want to compute on genes [0, 1, 56, 452, 593], i.e., the columns of the same number in the <code class="docutils literal notranslate"><span class="pre">data</span></code> array of <code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code>.)</p></li>
 <li><p>Make sure that you can run the code in <code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code> on Google Colaboratory. Use TensorBoard to study its progress.</p></li>
 <li><p>For each of your 5 genes, experiment with different hyperparameters to find a set that generate a low <code class="docutils literal notranslate"><span class="pre">val_loss</span></code>. (E.g., you can change the number and size of layers, use different activation functions, use a different optimizer.)</p></li>
-<li><p>Submit a file containing six lines:</p>
-<ol class="loweralpha">
-<li><p>First, the URL for an ASCII text file containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?</p></li>
-<li><p>Then, five lines, one for each of your genes, each with the form</p>
-<p>&lt;<em>gene-number</em>&gt;, &lt;<em>val-loss</em>&gt;, &lt;<em>URL-for-model</em>&gt;, &lt;<em>URL-for-history</em>&gt;</p>
-<p>where:</p>
-<ul class="simple">
-<li><p>&lt;<em>gene-number</em>&gt; is an integer gene number</p></li>
-<li><p>&lt;<em>val-loss</em>&gt; is the best validation loss that you achievedd</p></li>
-<li><p>&lt;<em>URL-for-model</em>&gt; allows us to access a Google Drive file containing Python code for the model used to generate the &lt;val-loss&gt;. (You may name one model for all 5 genes, or a different model for each.)</p></li>
-<li><p>&lt;<em>URL-for-history</em>&gt; allows us to access a Google Drive file containing the execution trace for the run that achieved the reported val-loss</p></li>
+</ol>
+<p>4 Submit the assignment via Gradescope. Check in a Colab notebook file containing:</p>
+<blockquote>
+<div><ul>
+<li><p>A first markdown block containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?</p></li>
+<li><p>A code block with the form:</p>
+<p>results = (&lt;yourname&gt;, &lt;list-of-results&gt;)</p>
+<p>where &lt;yourname&gt; is your name as a string, and &lt;list-of-results&gt; is a list of five (&lt;<em>gene-number</em>&gt;, &lt;<em>val-loss</em>&gt;) pairs, where</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>&lt;<em>gene-number</em>&gt; is the integer gene number</p></li>
+<li><p>&lt;<em>val-loss</em>&gt; is the best validation loss that you achieved</p></li>
 </ul>
+</div></blockquote>
 </li>
-</ol>
-</li>
-</ol>
+</ul>
+<p>For example, results = (“ian”, [(14, 0.5), (456, 0.45)])</p>
+<ul class="simple">
+<li><p>The (runable) model(s) used to generate the &lt;val-loss&gt; values. (You may provide one model for all 5 genes, or a different model for each.)</p></li>
+<li><p>For each gene, an execution trace for the run that achieved the reported val-loss</p></li>
+</ul>
+</div></blockquote>
 </div>
-<div class="section" id="assignment-2-due-october-15">
-<h2>Assignment 2: Due October 15<a class="headerlink" href="#assignment-2-due-october-15" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="assignment-2-due-october-22">
+<h2>Assignment 2: Due October 22<a class="headerlink" href="#assignment-2-due-october-22" title="Permalink to this headline">¶</a></h2>
 <p>Goal: Gain experience evaluating the performance of models, frameworks and
 hardware architectures</p>
 <ul class="simple">
@@ -132,6 +138,10 @@ hardware architectures</p>
 <li><p>You have to choose some image topics to gather for classification using the retuned model(s)</p></li>
 <li><p>Measure the performance of training <em>and</em> inference of the models (for two different models (e.g., vgg vs. resnet) and two different frameworks (e.g. TF vs Pytorch) on CPU, GPU and TPU or something else (e.g., your laptop; goal is to compare two different platforms to CPUs for a total of three platforms)</p></li>
 <li><p>Write up: Explain and account for the performance differences in terms of architecture elements, software stack, framework implementation strategy, and model structure</p></li>
+<li><p>Submit the assignment via Gradescope. Check in a Colab notebook file containing:
+- a markdown blocm documenting the studies that you performed and noting lessons learned
+- a markdown block documenting the required performance measurements on your chosen platfoms
+- code blocks including the models used to obtain those results, with execution traces</p></li>
 </ul>
 </div>
 </div>
