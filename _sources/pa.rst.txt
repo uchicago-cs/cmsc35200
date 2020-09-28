@@ -33,9 +33,12 @@ Proceed as follows:
     - A first markdown block containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?
     - A code block with the form:
         results = (<yourname>, <list-of-results>)
+
         where <yourname> is your name as a string, and <list-of-results> is a list of five (<*gene-number*>, <*val-loss*>) pairs, where
+
         -  <*gene-number*> is the integer gene number
         -  <*val-loss*> is the best validation loss that you achieved
+
         For example, results = ("ian", [(14, 0.5), (456, 0.45)])
     - The (runable) model(s) used to generate the <val-loss> values. (You may provide one model for all 5 genes, or a different model for each.)
     - For each gene, an execution trace for the run that achieved the reported val-loss
