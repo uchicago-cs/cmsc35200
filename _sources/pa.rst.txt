@@ -6,6 +6,8 @@ Programming Assignments
 * Assignment 3: TBD
 * Assignment 4: TBD
 
+Please submit the assignments via `Gradescope <https://www.gradescope.com>`_. You should have already received an email from Gradescope on CMSC35200 enrollment.
+
 
 Assignment 1: Due October 8
 ----------------------------
@@ -29,19 +31,15 @@ Proceed as follows:
 
 3. For each of your 5 genes, experiment with different hyperparameters to find a set that generate a low ``val_loss``. (E.g., you can change the number and size of layers, use different activation functions, use a different optimizer.)
 
-4. Submit the assignment via Gradescope. Check in a Colab notebook file containing:
-    - A first markdown block containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?
-    - A code block with the form:
-        results = (<yourname>, <list-of-results>)
-
-        where <yourname> is your name as a string, and <list-of-results> is a list of five (<*gene-number*>, <*val-loss*>) pairs, where
-
-        -  <*gene-number*> is the integer gene number
-        -  <*val-loss*> is the best validation loss that you achieved
-
-        For example, results = ("ian", [(14, 0.5), (456, 0.45)])
-    - The (runable) model(s) used to generate the <val-loss> values. (You may provide one model for all 5 genes, or a different model for each.)
-    - For each gene, an execution trace for the run that achieved the reported val-loss
+4. Please submit via Gradescope:
+    a. PDF file containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?
+    b. A text file with 5 lines, one for each of your genes, each with the form:
+        <*gene-number*>, <*val-loss*>, <*URL-for-model*>, <*URL-for-history*>
+        where:
+        <*gene-number*> is an integer gene number
+        <*val-loss*> is the best validation loss that you achieved
+        <*URL-for-model*> allows us to access a Google Drive file containing Python code for the model used to generate the <val-loss>. (You may name one model for all 5 genes, or a different model for each.)
+        <*URL-for-history*> allows us to access a Google Drive file containing the execution trace for the run that achieved the reported val-loss
 
 
 Assignment 2: Due October 22
