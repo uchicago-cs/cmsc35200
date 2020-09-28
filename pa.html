@@ -16,7 +16,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="CMSC 35200 Project and Paper" href="project.html" />
-    <link rel="prev" title="Autumn 2020 Calendar and Reading List" href="calendar.html" />
+    <link rel="prev" title="Week 1: Motivation and Introduction" href="calendar.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
@@ -106,23 +106,22 @@ Your task is to use Keras to build such a predictive model.</p>
 <li><p>Make sure that you can run the code in <code class="docutils literal notranslate"><span class="pre">Assignment-1.ipynb</span></code> on Google Colaboratory. Use TensorBoard to study its progress.</p></li>
 <li><p>For each of your 5 genes, experiment with different hyperparameters to find a set that generate a low <code class="docutils literal notranslate"><span class="pre">val_loss</span></code>. (E.g., you can change the number and size of layers, use different activation functions, use a different optimizer.)</p></li>
 <li><dl>
-<dt>Please submit via Gradescope:</dt><dd><ol class="loweralpha">
-<li><p>PDF file containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?</p></li>
+<dt>submit the assignment via Gradescope. Check in a Colab notebook containing:</dt><dd><ul>
+<li><p>a markdown block containing a brief description of what you tried and what you learned. What hyperparameters did you vary? Which proved important? Did you find that the same model worked well for all genes?</p></li>
 <li><dl>
-<dt>A text file with 5 lines, one for each of your genes, each with the form:</dt><dd><p>&lt;<em>gene-number</em>&gt;, &lt;<em>val-loss</em>&gt;, &lt;<em>URL-for-model</em>&gt;, &lt;<em>URL-for-history</em>&gt;</p>
+<dt>code blocks for 5 models, each headed with a markdown cells:</dt><dd><p>&lt;<em>gene-number</em>&gt;, &lt;<em>val-loss</em>&gt;</p>
 <dl class="simple">
 <dt>where:</dt><dd><ul class="simple">
 <li><p>&lt;<em>gene-number</em>&gt; is an integer gene number</p></li>
 <li><p>&lt;<em>val-loss</em>&gt; is the best validation loss that you achieved</p></li>
-<li><p>&lt;<em>URL-for-model</em>&gt; allows us to access a Google Drive file containing Python code for the model used to generate the &lt;val-loss&gt;. (You may name one model for all 5 genes, or a different model for each.)</p></li>
-<li><p>&lt;<em>URL-for-history</em>&gt; allows us to access a Google Drive file containing the execution trace for the run that achieved the reported val-loss</p></li>
 </ul>
 </dd>
 </dl>
+<p>You may name one model for all 5 genes, or a different model for each. Training history should present to allow us to verify the reported val-loss</p>
 </dd>
 </dl>
 </li>
-</ol>
+</ul>
 </dd>
 </dl>
 </li>
