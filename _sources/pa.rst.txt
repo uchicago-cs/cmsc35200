@@ -5,6 +5,8 @@ Programming Assignments
 * Assignment 2: Due October 22
 * Assignment 3: TBD
 * Assignment 4: TBD
+* Assignment 5: TBD
+* Assignment 6: TBD
 
 Please submit the assignments via `Gradescope <https://www.gradescope.com>`_. You should have already received an email from Gradescope on CMSC35200 enrollment.
 
