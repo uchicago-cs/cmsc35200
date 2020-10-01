@@ -36,7 +36,7 @@ Before class, watch:
 Other reading, for this week and later too:
 
 - `Deep Learning <https://www.deeplearningbook.org>`_ book by Goodfellow and friends, available online.
-- `Deep Learning wth Python <https://livebook.manning.com/book/deep-learning-with-python-second-edition>`_ book by Francois Chollet, available online.
+- `Deep Learning wth Python <https://livebook.manning.com/book/deep-learning-with-python-second-edition>`_ book by Francois Chollet, available online (but limited access).
 
 
 ----
@@ -63,6 +63,7 @@ Topics:
 
 Read:
 
+- `Chapter 6 of Deep Learning <https://www.deeplearningbook.org/contents/mlp.html>`_.
 - `The computational limits of deep learning <https://arxiv.org/pdf/2007.05558.pdf>`_.
 
 ----
