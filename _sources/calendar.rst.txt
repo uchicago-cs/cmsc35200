@@ -25,9 +25,7 @@ Things to do:
 Topics:
 
 - Deep neural networks (DNNs)
-- Gradient descent: how neural networks learn
-- Back propagation
-- Computational considerations: What DNNs mean for computers
+- Keras
 
 Before class, watch: 
 
@@ -36,24 +34,34 @@ Before class, watch:
 
 ----
 
-Week 2 - Deep Learning Frameworks
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 2 - Deep Learning Implementation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Tuesday, October 6**: Keras
+**Tuesday, October 6**: How DNNs learn
 
 Topics:
 
-- 
+- Gradient descent: how neural networks learn
+- Back propagation
+- Computational considerations: What DNNs mean for computers
 
 
+**Thursday, October 8**: Computational considerations contd
 
-**Thursday, October 8**: TBD
+Topics:
 
+- It's all linear algebra
+- CPUs, GPUs, TPUs
+- AI accelerators
+
+Read:
+
+- `The computational limits of deep learning <https://arxiv.org/pdf/2007.05558.pdf>`_.
 
 ----
 
-Week 3 - Back Propagation and Training 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Week 3 - Varieties of Neural Network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Tuesday, October 13**: TBD
 
@@ -63,8 +71,8 @@ Week 3 - Back Propagation and Training
 
 ----
 
-Week 4 - TBD
-~~~~~~~~~~~~
+Week 4 - Parallelism
+~~~~~~~~~~~~~~~~~~~~
 
 **Tuesday, October 20**: `
 
@@ -73,8 +81,8 @@ Week 4 - TBD
 
 ----
 
-Week 5 - TBD
-~~~~~~~~~~~~
+Week 5 - Precision and accuracy
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Tuesday, October 27**: TBD
 
@@ -91,12 +99,17 @@ Week 6 - TBD
 
 ----
 
-Week 7 - TBD
-~~~~~~~~~~~~
+Week 7 - Nontraditional architectures
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Tuesday, November 10**: TBD
+**Tuesday, November 10**: Neuromorphic computing
 
-**Thursday, November 12**: TBD
+**Thursday, November 12**: Optical neural networks
+
+
+Read:
+
+- `Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks <http://cadlab.cs.ucla.edu/~cong/slides/fpga2015_chen.pdf>`_.
 
 ----
 
