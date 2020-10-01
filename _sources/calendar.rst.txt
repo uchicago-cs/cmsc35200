@@ -31,7 +31,7 @@ Topics:
 
 Before class, watch: 
 
-- The four videos on deep learning concepts `here <https://www.youtube.com/playlist?list=PLLMP7TazTxHrgVk7w1EKpLBIDoC50QrPS>`_.
+- The four videos on deep learning concepts `here <https://www.youtube.com/playlist?list=PLLMP7TazTxHrgVk7w1EKpLBIDoC50QrPS>`_
 
 Other reading, for this week and later too:
 
@@ -63,8 +63,8 @@ Topics:
 
 Read:
 
-- `Chapter 6 of Deep Learning <https://www.deeplearningbook.org/contents/mlp.html>`_.
-- `The computational limits of deep learning <https://arxiv.org/pdf/2007.05558.pdf>`_.
+- `Chapter 6 of Deep Learning <https://www.deeplearningbook.org/contents/mlp.html>`_
+- `The computational limits of deep learning <https://arxiv.org/pdf/2007.05558.pdf>`_
 
 ----
 
@@ -77,8 +77,8 @@ Week 3 - Varieties of Neural Network
 
 Read:
 
-- `The neural network zoo <https://www.asimovinstitute.org/neural-network-zoo/>`_.
-- `ImageNet Classification with Deep Convolutional Neural Networks <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf>`_.
+- `The neural network zoo <https://www.asimovinstitute.org/neural-network-zoo/>`_
+- `ImageNet Classification with Deep Convolutional Neural Networks <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf>`_
 
 ----
 
@@ -91,9 +91,9 @@ Week 4 - Parallelism
 
 Read:
 
-- `Large Scale Distributed Deep Networks <http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf>`_.
-- `Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis <https://arxiv.org/pdf/1802.09941.pdf>`_.
-- `Beyond Data and Model Parallelism for Deep Neural Networks <https://arxiv.org/abs/1807.05358>`_.
+- `Large Scale Distributed Deep Networks <http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf>`_
+- `Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis <https://arxiv.org/pdf/1802.09941.pdf>`_
+- `Beyond Data and Model Parallelism for Deep Neural Networks <https://arxiv.org/abs/1807.05358>`_
 
 
 ----
@@ -107,10 +107,10 @@ Week 5 - Measuring and analyzing performance
 
 Read:
 
-- `DAWNBench: An End-to-End Deep Learning Benchmark and Competition <https://dawn.cs.stanford.edu/benchmark/papers/nips17-dawnbench.pdf>`_.
-- `DAWNBench web site <https://dawn.cs.stanford.edu/benchmark/>`_.
-- `Analysis of DAWNBench, a Time-to-Accuracy Machine Learning Performance Benchmark <https://arxiv.org/pdf/1806.01427.pdf>`_.
-- `MLPerf <https://mlperf.org>`_.
+- `DAWNBench: An End-to-End Deep Learning Benchmark and Competition <https://dawn.cs.stanford.edu/benchmark/papers/nips17-dawnbench.pdf>`_
+- `DAWNBench web site <https://dawn.cs.stanford.edu/benchmark/>`_
+- `Analysis of DAWNBench, a Time-to-Accuracy Machine Learning Performance Benchmark <https://arxiv.org/pdf/1806.01427.pdf>`_
+- `MLPerf <https://mlperf.org>`_
 
 ----
 
@@ -123,7 +123,7 @@ Week 5 - Precision and accuracy
 
 Read:
 
-- `Performance-Efficiency Trade-off of Low-Precision Numerical Formats in Deep Neural Networks <https://dl.acm.org/doi/pdf/10.1145/3316279.3316282>`_.
+- `Performance-Efficiency Trade-off of Low-Precision Numerical Formats in Deep Neural Networks <https://dl.acm.org/doi/pdf/10.1145/3316279.3316282>`_
 
 
 ----
@@ -138,8 +138,8 @@ Week 7 - Nontraditional architectures
 
 Read:
 
-- `Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks <http://cadlab.cs.ucla.edu/~cong/slides/fpga2015_chen.pdf>`_.
-- `Neuromorphic computing using non-volatile memory <https://www.tandfonline.com/doi/full/10.1080/23746149.2016.1259585>`_.
+- `Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks <http://cadlab.cs.ucla.edu/~cong/slides/fpga2015_chen.pdf>`_
+- `Neuromorphic computing using non-volatile memory <https://www.tandfonline.com/doi/full/10.1080/23746149.2016.1259585>`_
 
 ----
 
