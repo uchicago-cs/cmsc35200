@@ -78,6 +78,7 @@ Week 3 - Varieties of Neural Network
 Read:
 
 - `The neural network zoo <https://www.asimovinstitute.org/neural-network-zoo/>`_.
+- `ImageNet Classification with Deep Convolutional Neural Networks <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf>`_.
 
 ----
 
