@@ -33,6 +33,11 @@ Before class, watch:
 
 - The four videos on deep learning concepts `here <https://www.youtube.com/playlist?list=PLLMP7TazTxHrgVk7w1EKpLBIDoC50QrPS>`_.
 
+Other reading, for this week and later too:
+
+- `Deep Learning <https://www.deeplearningbook.org>`_ book by Goodfellow and friends, available online.
+- `Deep Learning wth Python <https://livebook.manning.com/book/deep-learning-with-python-second-edition>`_ book by Francois Chollet, available online.
+
 
 ----
 
