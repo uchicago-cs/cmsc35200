@@ -54,7 +54,7 @@ Topics:
 
 - It's all linear algebra
 - CPUs, GPUs, TPUs
-- AI accelerators
+- AI accelerators: Cerebras, SambaNova, GraphCore, etc.
 
 Read:
 
@@ -69,7 +69,9 @@ Week 3 - Varieties of Neural Network
 
 **Thursday, October 15**: TBD
 
+Read:
 
+- `The neural network zoo <https://www.asimovinstitute.org/neural-network-zoo/>`_.
 
 ----
 
@@ -80,24 +82,42 @@ Week 4 - Parallelism
 
 **Thursday, October 22**: `
 
+Read:
+
+- `Large Scale Distributed Deep Networks <http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf>`_.
+- `Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis <https://arxiv.org/pdf/1802.09941.pdf>`_.
+- `Beyond Data and Model Parallelism for Deep Neural Networks <https://arxiv.org/abs/1807.05358>`_.
+
+
+----
+
+Week 5 - Measuring and analyzing performance 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Tuesday, October 27**: TBD
+
+**Thursday, October 29**: TBD
+
+Read:
+
+- `DAWNBench: An End-to-End Deep Learning Benchmark and Competition <https://dawn.cs.stanford.edu/benchmark/papers/nips17-dawnbench.pdf>`_.
+- `DAWNBench web site <https://dawn.cs.stanford.edu/benchmark/>`_.
+- `Analysis of DAWNBench, a Time-to-Accuracy Machine Learning Performance Benchmark <https://arxiv.org/pdf/1806.01427.pdf>`_.
+- `MLPerf <https://mlperf.org>`_.
 
 ----
 
 Week 5 - Precision and accuracy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Tuesday, October 27**: TBD
-
-**Thursday, October 29**: TBD
-
-----
-
-Week 6 - TBD
-~~~~~~~~~~~~
-
 **Tuesday, November 3**: TBD
 
 **Thursday, November 5**: TBD
+
+Read:
+
+- `Performance-Efficiency Trade-off of Low-Precision Numerical Formats in Deep Neural Networks <https://dl.acm.org/doi/pdf/10.1145/3316279.3316282>`_.
+
 
 ----
 
@@ -112,6 +132,7 @@ Week 7 - Nontraditional architectures
 Read:
 
 - `Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks <http://cadlab.cs.ucla.edu/~cong/slides/fpga2015_chen.pdf>`_.
+- `Neuromorphic computing using non-volatile memory <https://www.tandfonline.com/doi/full/10.1080/23746149.2016.1259585>`_.
 
 ----
 
