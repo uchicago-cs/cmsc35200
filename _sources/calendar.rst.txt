@@ -68,26 +68,12 @@ Read:
 
 ----
 
-Week 3 - Varieties of Neural Network
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Tuesday, October 13**: TBD
-
-**Thursday, October 15**: TBD
-
-Read:
-
-- `The neural network zoo <https://www.asimovinstitute.org/neural-network-zoo/>`_
-- `ImageNet Classification with Deep Convolutional Neural Networks <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf>`_
-
-----
-
-Week 4 - Parallelism
+Week 3 - Parallelism
 ~~~~~~~~~~~~~~~~~~~~
 
-**Tuesday, October 20**: `
+**Tuesday, October 13**
 
-**Thursday, October 22**: `
+**Thursday, October 15**
 
 Read:
 
@@ -96,7 +82,21 @@ Read:
 - `Beyond Data and Model Parallelism for Deep Neural Networks <https://arxiv.org/abs/1807.05358>`_
 
 
+
+Week 4 - Varieties of Neural Network
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Tuesday, October 20**
+
+**Thursday, October 22**
+
+Read:
+
+- `The neural network zoo <https://www.asimovinstitute.org/neural-network-zoo/>`_
+- `ImageNet Classification with Deep Convolutional Neural Networks <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf>`_
+
 ----
+
 
 Week 5 - Measuring and analyzing performance 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
