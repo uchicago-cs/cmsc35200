@@ -89,6 +89,7 @@ Read:
 - `Convolutional Neural Network Training with Distributed K-FAC <https://arxiv.org/abs/2007.00784>`_
 
 Also interesting:
+
 - `Accurate, large minibatch SGD: Training ImageNet in 1 hour <https://arxiv.org/pdf/1706.02677.pdf>`_
 - `Large batch training of convolutional networks <https://arxiv.org/pdf/1708.03888.pdf>`_
 - `Large batch optimization for deep learning: Training BERT in 76 minutes <https://arxiv.org/abs/1904.00962>`_
