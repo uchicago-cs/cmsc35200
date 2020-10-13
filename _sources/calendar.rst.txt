@@ -73,13 +73,25 @@ Week 3 - Parallelism
 
 **Tuesday, October 13**
 
-**Thursday, October 15**
-
 Read:
 
 - `Large Scale Distributed Deep Networks <http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks.pdf>`_
 - `Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis <https://arxiv.org/pdf/1802.09941.pdf>`_
 - `Beyond Data and Model Parallelism for Deep Neural Networks <https://arxiv.org/abs/1807.05358>`_
+
+
+**Thursday, October 15**: `Zhao Zhang <https://zhaozhang.github.io>`_, TACC
+
+Read:
+
+- `On large-batch training for deep learning: Generalization gap and sharp minima <https://arXix.org/pdf/1609.04836.pdf>`_
+- `ImageNet training in minutes <https://arxiv.org/pdf/1709.05011.pdf>`_
+- `Convolutional Neural Network Training with Distributed K-FAC <https://arxiv.org/abs/2007.00784>`_
+
+Also interesting:
+- `Accurate, large minibatch SGD: Training ImageNet in 1 hour <https://arxiv.org/pdf/1706.02677.pdf>`_
+- `Large batch training of convolutional networks <https://arxiv.org/pdf/1708.03888.pdf>`_
+- `Large batch optimization for deep learning: Training BERT in 76 minutes <https://arxiv.org/abs/1904.00962>`_
 
 
 
